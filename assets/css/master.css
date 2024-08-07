@@ -1,6 +1,392 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url('Barlow-Medium.woff2') format('woff2'),
+        url('Barlow-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Bodoni 72 Oldstyle';
+    src: url('BodoniSvtyTwoOSITCTT-Book.woff2') format('woff2'),
+        url('BodoniSvtyTwoOSITCTT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-book{
+    font-family: 'Bodoni 72 Oldstyle';
+    font-weight: normal;
+    font-style: normal;
+}
+.font-medium{
+    font-family: 'Barlow';
+    font-weight: 500;
+    font-style: normal;
+}
+a{
+    text-decoration: none !important;
+    transition: 0.4s;
+}
+body{
+    font-family: 'Barlow';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 1.3;
+    user-select: none;
+}
+
 a:hover{
     transition: 0.5s;
 }
 .container{
     max-width: 1350px ;
+}
+.HeaderBox{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+}
+.HeaderBoxLeft{
+    flex: 0 0 150px;
+    max-width: 150px;
+}
+.HeaderBoxMiddle{
+    flex: 0 0 auto;
+    max-width: auto;
+}
+.HeaderBoxRight{
+    flex: 0 0 150px;
+    max-width: 150px;
+    display: flex;
+    justify-content: end;
+}
+img{
+    max-width: 100%;
+}
+.HeaderNavItems{
+    display: flex;
+    position: relative;
+}
+.HeadrNavItem{
+    font-size: 18px;
+    margin: 0 18px;
+    color: #000000;
+    position: relative;
+}
+.HeadrNavItem.active::after,
+.HeadrNavItem:hover::after{
+    content: "";
+    background-color: #E2AD6B;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.LanguageSwitcher svg{
+    width: 28px;
+    height: 26px;
+}
+.arabic{
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+.LanguageSwitcherLink{
+    display: flex;
+    align-items: center;
+    color: #000;
+    border: 1px solid #000;
+    padding: 5px 10px;
+  width: 93px;
+  border-radius: 5px;
+  direction: rtl;
+
+}
+
+.LanguageSwitcherLink span{
+    margin-right: 8px;
+}
+.LanguageSwitcherLink:hover{
+    background-color: #E2AD6B;
+    border: 1px solid #E2AD6B;
+}
+.mainbannerImg{
+    width: 100%;
+}
+.StickHeader header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+}
+.HeroNavFlexBox{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.HeroNavContent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.HeroNavContent > .container ,
+.HeroNavFlexBox{
+    height: 100%;
+}
+.Txt1{
+font-size: 25px;
+margin-bottom: 10px;
+}
+.Txt2{
+font-size: 55px;
+}
+.Txt3{
+    font-size: 28px;
+    
+}
+.HeroContactForm{
+    padding: 20px;
+    background: rgba(255,255,255,0.3);
+  border-radius: 25px;
+  text-align: center;
+}
+.LinkTp1{
+    padding:10px 15px;
+    background: rgba(255,255,255,0.3);
+    color: #fff;
+    width: 160px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 25px;
+    text-align: center;
+}
+.LinkTp1:after{
+    content: "";
+    background-image: url(../images/arrow1.png);
+    width: 10px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    top: 2px;
+}
+.hover1:hover{
+    background-color: #E2AD6B !important;
+    color: #fff !important;
+}
+.LinkTp2{
+    padding:10px 15px;
+    background: rgba(0,0,0,.8);
+    color: #E2AD6B;
+    width: 160px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+
+}
+.LinkTp2:before{
+    content: "";
+    background-image: url(../images/call1.png);
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    top: 2px;
+}
+.hover2:hover{
+    background-color: #000 !important;
+    color: #E2AD6B;
+}
+.LinkTp3{
+    padding:10px 15px;
+    background: #E2AD6B;
+    color: #072341;
+    width: 160px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+
+}
+.LinkTp3:after{
+    content: "";
+    background-image: url(../images/arrow2.png);
+    width: 10px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    top: 2px;
+}
+.hover3:hover{
+    background-color: #fff !important;
+}
+.HeroContactForm:hover{
+    background-color: #E2AD6B;
+}
+.HeroContactForm:hover .Txt3{
+color: #000;
+}
+.pd-common{
+    padding: 60px 0px;
+}
+.Txt5{
+    font-size: 45px;
+    position: relative;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+.Txt5::after{
+    content: "";
+    background-color: #E2AD6B;
+    width: 70%;
+    height: 3px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+.mb-15{
+    margin-bottom: 20px;
+}
+.row.mb-15{
+    margin-bottom: 25px !important;
+}
+.OurServicesBlock{
+    background-color: #002341;
+}
+.T1{
+    color: #E2AD6B;
+    text-align: center;
+    font-size: 30px;
+}
+.T2{
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.ServiceBlocks{
+    margin-top: 30px;
+}
+.ServiceBlocks .col-md-3{
+    padding: 10px 0px;
+    border-right: 1px solid #9D9D9D;
+   
+}
+.ServiceBlocks .col-md-3:nth-child(4n){
+    border-right: 0px solid #9D9D9D;
+}
+.ServiceBlock{
+    padding: 25px;
+}
+.brb{
+    border-bottom: 1px solid #9D9D9D;
+}
+.ServiceBlockImage{
+    width: 60px;
+    height: 60px;
+    background-size: 100% 100%;
+    margin-bottom: 15px;
+}
+.ServiceBlockTitle{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.ServiceBlockDesc{
+    color: #9D9D9D;
+    font-size: 15px;
+}
+.ServiceBlockImage.image1{
+    background-image: url(../images/ic1.png);
+    width: 80px;
+}
+.ServiceBlockImage.image2{
+    background-image: url(../images/ic2.png);
+    width: 80px;
+}
+.ServiceBlockImage.image3{
+    background-image: url(../images/ic3.png);
+    width: 80px;
+}
+.ServiceBlockImage.image4{
+    background-image: url(../images/ic4.png);
+    width: 80px;
+}
+.ServiceBlockImage.image5{
+    background-image: url(../images/ic5.png);
+    width: 80px;
+}
+.ServiceBlockImage.image6{
+    background-image: url(../images/ic6.png);
+    width: 80px;
+}
+.ServiceBlockImage.image7{
+    background-image: url(../images/ic7.png);
+    width: 80px;
+}
+.ServiceBlockImage.image8{
+    background-image: url(../images/ic8.png);
+    width: 80px;
+}
+
+.T5{
+    color: #E2AD6B;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.AccordionQuestion{
+    background-color: #002341;
+    color: #fff;
+    font-size: 19px;
+    padding: 15px 40px 15px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+}
+.AccordionQuestion:after{
+    content: "";
+    transition: 0.4s;
+    background-image: url(../images/acc.png);
+    width: 12px;
+  height: 20px;
+  position: absolute;
+  right: 22px;
+  top: 18px;
+  background-size: 100% 100%;
+}
+.AccordionItem{
+    margin-bottom: 15px;
+}
+.AccordionAnswer{
+    padding: 15px;
+    display: none;
+}
+.AccordionQuestion.ActivatedAccordion:after{
+transform: rotate(90deg);
 }
