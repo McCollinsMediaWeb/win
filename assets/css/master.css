@@ -363,8 +363,8 @@ color: #000;
 .AccordionQuestion{
     background-color: #002341;
     color: #fff;
-    font-size: 19px;
-    padding: 15px 40px 15px 15px;
+    font-size: 18px;
+    padding: 15px 40px 15px 25px;
     border-radius: 50px;
     cursor: pointer;
     position: relative;
@@ -389,4 +389,7 @@ color: #000;
 }
 .AccordionQuestion.ActivatedAccordion:after{
 transform: rotate(90deg);
+}
+.bg1{
+    background-color: #F4F4F4;
 }
