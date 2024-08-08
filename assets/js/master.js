@@ -1,8 +1,9 @@
 $(document).ready(
     function(){
-        // windowHeight = jQuery(window).innerHeight();
-        // HeaderHeight = jQuery("header").innerHeight();
-        // jQuery('.mainbannerImg').css('height', (windowHeight-HeaderHeight)+'px');
+        windowHeight = jQuery(window).innerHeight();
+        HeaderHeight = jQuery("header").innerHeight();
+        // jQuery('.FullWidthHeight').css('height', (windowHeight-HeaderHeight)+'px');
+        jQuery('.FullWidthHeight').css('height', (windowHeight)+'px');
       
         jQuery(window).scroll(function () {
           var scroll = jQuery(window).scrollTop();

@@ -74,6 +74,7 @@ a:hover {
     max-width: 150px;
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 
 img {
@@ -884,4 +885,26 @@ footer .container {
     position: absolute;
     top: 0;
     right: 0;
+}
+.MenuButton{
+    margin-left: 25px;
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.4s;
+}
+.MenuButton:hover{
+    background-color: #E2AD6B;
+}
+.MenuIcon{
+    background-image: url(../images/menu.png);
+    width: 30px;
+    height: 30px;
+    background-size: 100% 100%;
+}
+.FullWidthHeight{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
 }
