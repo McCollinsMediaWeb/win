@@ -125,14 +125,16 @@ img {
     color: #002341;
     border: 1px solid #002341;
     padding: 5px 10px;
-    width: 93px;
-    border-radius: 5px;
+    width: 100px;
+    border-radius: 25px;
     direction: rtl;
 
 }
 
 .LanguageSwitcherLink span {
     margin-right: 8px;
+    position: relative;
+  top: -2px;
 }
 
 .LanguageSwitcherLink:hover {
@@ -765,5 +767,121 @@ background-image: url(../images/minus.png);
     border-radius: 25px;
 }
 .FooterLogo{
-    max-width: 120px;
+    max-width: 150px;
+}
+.FooterDesc{
+    color: #9D9D9D;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.footerbottom{
+    background-color: #E2AD6B;
+    padding: 10px 0px;
+    color: #fff;
+}
+.footerbottom a{
+    color: #fff !important;
+}
+.SocialMediaIcon{
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    background-size: 100% 100%;
+}
+.SocialMediaIcon.tiktok{
+    background-image: url(../images/tiktok.png);
+}
+.SocialMediaIcon.instagram{
+    background-image: url(../images/instagram.png);
+    width: 25px;
+}
+.SocialMediaIcon.facebook{
+    background-image: url(../images/facebook.png);
+    width: 15px;
+}
+.SocialMediaIcon.linkedin{
+    background-image: url(../images/linkedin.png);
+    width: 25px;
+}
+.SocialMediaIcon.twitter{
+    background-image: url(../images/twitter.png);
+    width: 25px;
+}
+.SocialMediaLinks a{
+    display: inline-block;
+    margin: 0 7px;
+}
+.SocialMediaLinks a:first-child{
+    margin-left: 0;
+}
+.NewT1{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.NewT2{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.Form1{
+margin-bottom: 15px;
+}
+.Form1 input{
+    width: 100%;
+    padding: 10px;
+    box-shadow: none !important;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    background-color: #002341;
+    color: #fff;
+}
+.Form1 input:focus{
+    outline: none;
+
+}
+.Form1 button{
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 20px;
+    min-width: 120px;
+    background-color: #E2AD6B;
+    border-color: #E2AD6B;
+    transition: 0.4s;
+}
+.Form1 button:hover{
+    background-color: #737373;
+    color: #fff;
+}
+footer .container {
+    max-width: 1200px;
+}
+.FtLink1{
+    color: #fff;
+    margin-bottom: 5px;
+}
+.FtLink2{
+    color: #E2AD6B;
+    display: block;
+    margin-bottom: 5px;
+}
+.FtLink2:hover{
+    color: #707070;
+}
+.ContactInfoBox{
+    margin-top: 10px;
+    position: relative;
+}
+.ContactInfoBox::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-size: 100% 100%;
+    background-image: url(../images/ftr.png);
+    position: absolute;
+    top: 0;
+    right: 0;
 }
