@@ -764,3 +764,6 @@ background-image: url(../images/minus.png);
 .BlogImage{
     border-radius: 25px;
 }
+.FooterLogo{
+    max-width: 120px;
+}
