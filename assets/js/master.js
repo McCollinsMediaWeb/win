@@ -256,10 +256,165 @@ $('.AccordionQuestion').click(function(e) {
       $this.next().removeClass('show');
       $this.next().slideUp(350);
   } else {
+    $(".AccordionQuestion").removeClass("ActivatedAccordion");
       $this.addClass("ActivatedAccordion");
       $this.parent().parent().find('.AccordionAnswer').removeClass('show');
       $this.parent().parent().find('.AccordionAnswer').slideUp(350);
       $this.next().toggleClass('show');
       $this.next().slideToggle(350);
   }
+});
+$('.OtherAccordionItemQuestion').click(function(e) {
+  e.preventDefault();
+
+  let $this = $(this);
+
+  if ($this.next().hasClass('show')) {
+      $this.removeClass("ActivatedAccordion");
+      $this.next().removeClass('show');
+      $this.next().slideUp(350);
+  } else {
+    $(".OtherAccordionItemQuestion").removeClass("ActivatedAccordion");
+      $this.addClass("ActivatedAccordion");
+      $this.parent().parent().find('.OtherAccordionItemAnswer').removeClass('show');
+      $this.parent().parent().find('.OtherAccordionItemAnswer').slideUp(350);
+      $this.next().toggleClass('show');
+      $this.next().slideToggle(350);
+  }
+});
+$(".team").slick({
+  dots: true,
+  infinite: true,
+  speed: 1500,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  loop: true,
+  arrows: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 2,
+      },
+    },
+    {
+      breakpoint: 570,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+});
+$(".partnerBlock").slick({
+  dots: true,
+  infinite: true,
+  speed: 1500,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  loop: true,
+  arrows: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 2,
+      },
+    },
+    {
+      breakpoint: 570,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+});
+$(".testimonials").slick({
+  dots: true,
+  infinite: true,
+  speed: 1500,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  loop: true,
+  arrows: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 2,
+      },
+    },
+    {
+      breakpoint: 570,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+});
+$(".BlogSliderBox").slick({
+  dots: true,
+  infinite: true,
+  speed: 1500,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  loop: true,
+  arrows: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true,
+      },
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 2,
+      },
+    },
+    {
+      breakpoint: 570,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
 });
