@@ -1327,7 +1327,7 @@ footer .container {
     }
 
     .LanguageSwitcherLink {
-        padding: 2px 15px;
+        padding: 0px 15px;
         width: auto;
     }
 
@@ -1613,4 +1613,9 @@ footer .container {
     html{
         overflow-x: hidden;
     }
+    .HeaderBoxRight {
+        flex: 1 1;
+        max-width: 100%;
+      }
+
 }
