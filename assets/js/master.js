@@ -285,7 +285,7 @@ $('.OtherAccordionItemQuestion').click(function(e) {
 });
 $(document).ready(function(){
   
-  $(".MenuButton , .CloseButton1").click(function () {
+  $(".MenuButton , .CloseButton1 ,.MenuActive1 ").click(function () {
       jQuery("body").toggleClass("menuPopupActivated");
         windowHeight = jQuery(window).innerHeight();
         PopupHeaderHeight1= jQuery(".PopUpHeaderBoxWrap1").innerHeight();
@@ -294,7 +294,7 @@ $(document).ready(function(){
         jQuery('.PopupContentBox1').css('height', (windowHeight - totalGap )+'px');
        
   });
-  $(".contactPopupButton , .contactPopupClose").click(function () {
+  $(".contactPopupButton , .contactPopupClose , .Contactusnow").click(function () {
         jQuery("body").toggleClass("contactPopupActivated");
         
         windowHeight = jQuery(window).innerHeight();

@@ -1115,7 +1115,55 @@ background-color: #fff;
 ::-ms-input-placeholder { /* Edge 12-18 */
   color: #002341;
 }
+.mob-only{
+    display: none;
+}
+.halo-sticky-toolbar-mobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 8;
+    box-shadow: 0 0 9px #0000001f;
+    transition: transform .6s;
+    background: #fff;
+    border: 1px solid #fff;
+    overflow: hidden;
+  }
+  .bottom-bar {
+    padding: 3px 15px;
+    min-height: 60px;
+  }
+  .bottom-bar--list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+  }
+  .bottom-bar--list li > a {
+    padding: 7px 2px;
+    display: block;
+    pointer-events: auto;
+    text-align: center;
+    color: #002341;
+  }
+  .bottom-bar--list .icon img {
+    max-width: 25px;
+  }
+  .bottom-bar--list .icon + .text {
+    margin-top: 6px;
+    line-height: 1;
+    font-size: 11px;
+  }
   @media only screen and (max-width: 1000px) {
+    .d-only{
+        display: none;
+    }
+    .mob-only{
+        display: block;
+    }
     .HeaderBoxMiddle{
         display: none;
     }
@@ -1133,8 +1181,8 @@ background-color: #fff;
         display: none;
       }
       .HeaderBoxLeft {
-        flex: 0 0 125px;
-        max-width: 125px;
+        flex: 0 0 115px;
+        max-width: 115px;
       }
       .LanguageSwitcher svg {
         width: 22px;
@@ -1304,5 +1352,63 @@ background-color: #fff;
       }
       .TeamCard {
         padding: 0px 5px;
+      }
+      .NewT1 {
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 5px;
+        margin-top: 15px;
+      }
+      .MobileClmn1{
+        justify-content: center;
+        padding: 15px 0px;
+      }
+      .MobileClmn1 .col-md-4{
+        flex: 0 0 50%;
+        max-width: 50%;
+        text-align: center;
+      }
+      .ContactInfoBox::after {
+        width: 60px;
+        height: 60px;
+      }
+      .FooterDesc {
+        color: #fff;
+      }
+      .footerbottom ,
+      .footerbottom .text-right{
+        text-align: center !important;
+      }
+      .PopUpHeaderBoxLeft {
+        flex: 0 0 90px;
+        max-width: 90px;
+      }
+      .PopUpHeaderBoxMiddle {
+        font-size: 20px;
+      }
+      .CloseButton {
+        width: 20px;
+        height: 20px;
+      }
+      .heightfull {
+        height: auto;
+      }
+      .PopUpFooterBox .col-md-10 {
+        font-size: 17px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .PopUpFooterBox .col-md-2{
+        text-align: center;
+      }
+      .PopUpFooterBox {
+        padding: 10px 0px;
+        background-color: #fff;
+      }
+      .Ct1{
+        display: none;
+      }
+      .HeaderBox {
+        padding: 5px 0px;
       }
   }
