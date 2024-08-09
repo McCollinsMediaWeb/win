@@ -152,7 +152,7 @@ img {
     left: 0;
     top: 0;
     width: 100%;
-    z-index: 999;
+    z-index: 9;
     background-color: #fff;
 }
 
@@ -889,11 +889,13 @@ footer .container {
 .MenuButton{
     margin-left: 25px;
     cursor: pointer;
-    padding: 5px;
+    padding: 10px;
     transition: 0.4s;
+    border-radius: 50%;
+    border: 2px solid #fff;
 }
 .MenuButton:hover{
-    background-color: #E2AD6B;
+    border: 2px solid #E2AD6B;
 }
 .MenuIcon{
     background-image: url(../images/menu.png);
@@ -906,5 +908,22 @@ footer .container {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    z-index: 99;
+}
+.PopUpHeaderBox{
+    display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  align-items: center;
+background-color: #fff;
+}
+.PopUpHeaderBoxLeft{
+    flex: 0 0 150px;
+  max-width: 150px;
+}
+.max-width-100{
+    max-width: 100%;
+}
+.PopUpHeaderBoxMiddle{
+    font-size: 30px;
 }
