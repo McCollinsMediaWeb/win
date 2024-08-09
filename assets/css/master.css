@@ -135,7 +135,7 @@ img {
 .LanguageSwitcherLink span {
     margin-right: 8px;
     position: relative;
-  top: -2px;
+    top: -2px;
 }
 
 .LanguageSwitcherLink:hover {
@@ -579,8 +579,8 @@ img {
 
 .OpT2 {
     font-size: 40px;
-  position: relative;
-  line-height: 1;
+    position: relative;
+    line-height: 1;
 }
 
 .PartnerItem {
@@ -602,24 +602,29 @@ img {
 .PartnerColumnInner .PartnerItem:last-child {
     margin-top: 10px;
 }
+
 .partnerBlock {
     margin-top: 40px;
 }
-.bg2{
+
+.bg2 {
     background-color: #002341;
 }
-.OtherAccordionItem{
+
+.OtherAccordionItem {
     border-bottom: 1px solid #707070;
     padding: 15px 0px;
 }
-.OtherAccordionItemQuestion{
+
+.OtherAccordionItemQuestion {
     font-size: 20px;
     position: relative;
     padding-right: 25px;
     cursor: pointer;
     position: relative;
 }
-.OtherAccordionItemQuestion::after{
+
+.OtherAccordionItemQuestion::after {
     content: "";
     background-image: url(../images/plus.png);
     width: 15px;
@@ -629,26 +634,31 @@ img {
     top: 0px;
     right: 5px;
 }
-.ActivatedAccordion.OtherAccordionItemQuestion::after{
-background-image: url(../images/minus.png);
+
+.ActivatedAccordion.OtherAccordionItemQuestion::after {
+    background-image: url(../images/minus.png);
 }
-.OtherAccordionItemAnswer{
+
+.OtherAccordionItemAnswer {
     display: none;
 }
-.OtherAccordionItemAnswer.active{
+
+.OtherAccordionItemAnswer.active {
     display: block;
 }
-.OtherAccordionItemAnswer{
+
+.OtherAccordionItemAnswer {
     padding-top: 15px;
 }
 
-.AnswerBoxHd{
+.AnswerBoxHd {
     font-size: 25px;
     color: #E2AD6B;
     position: relative;
     margin-bottom: 5px;
 }
-.AnswerBoxHd::after{
+
+.AnswerBoxHd::after {
     content: "";
     background-image: url(../images/arrow.png);
     width: 25px;
@@ -657,17 +667,20 @@ background-image: url(../images/minus.png);
     margin-left: 10px;
     background-size: 100% 100%;
 }
-.OtherServiceAccordion{
+
+.OtherServiceAccordion {
     margin-top: 25px;
 }
-.testimonialsCardQuote{
+
+.testimonialsCardQuote {
     padding: 15px;
     background-color: #F4F4F4;
     border-radius: 25px;
     margin-top: -25px;
     padding-top: 25px;
 }
-.QuoteRound{
+
+.QuoteRound {
     width: 55px;
     height: 55px;
     border-radius: 50%;
@@ -678,7 +691,8 @@ background-image: url(../images/minus.png);
     background-color: #E2AD6B;
     margin: 0 auto;
 }
-.QuoteRound:after{
+
+.QuoteRound:after {
     content: "''";
     font-size: 74px;
     display: inline-block;
@@ -689,28 +703,35 @@ background-image: url(../images/minus.png);
     top: 6px;
     line-height: 1;
 }
-.TestHead{
+
+.TestHead {
     font-size: 23px;
     margin: 15px 0px;
     line-height: 1.1;
 }
-.TestimonialBlk{
+
+.TestimonialBlk {
     margin-top: 45px;
 }
-.TestDesc{
+
+.TestDesc {
     margin-bottom: 15px;
 }
-.TestOwner{
+
+.TestOwner {
     color: #E2AD6B;
     font-size: 20px;
 }
-.TestimonialCard{
+
+.TestimonialCard {
     margin: 0 10px;
 }
-.BrdBlk{
+
+.BrdBlk {
     text-align: center;
 }
-.BrdBlk span{
+
+.BrdBlk span {
     width: 25%;
     background-color: #E2AD6B;
     height: 2px;
@@ -719,116 +740,141 @@ background-image: url(../images/minus.png);
     border-radius: 5px;
 }
 
-.BlogItemLink{
+.BlogItemLink {
     display: block;
     padding: 15px;
     background-color: #fff;
     border-radius: 25px;
     margin: 0 5px;
 }
-.Blogdate{
+
+.Blogdate {
     color: #E2AD6B;
     font-size: 15px;
     margin: 15px 0px 5px 0px;
 }
-.BlogTitle{
+
+.BlogTitle {
     font-size: 20px;
     color: #002341;
     margin-bottom: 10px;
 }
-.Arrow{
+
+.Arrow {
     display: inline-block;
     background-color: #737373;
     padding: 5px 15px;
     border-radius: 25px;
 }
-.ArrowImage{
+
+.ArrowImage {
     display: inline-block;
     background-image: url(../images/arrowwhite.png);
-  width: 25px;
-  height: 15px;
-  display: inline-block;
-  background-size: 100% 100%;
-  position: relative;
-  top: 3px;
+    width: 25px;
+    height: 15px;
+    display: inline-block;
+    background-size: 100% 100%;
+    position: relative;
+    top: 3px;
 }
-.BlogItemLink:hover{
+
+.BlogItemLink:hover {
     background-color: #072341;
 }
-.BlogItemLink:hover .Blogdate{
+
+.BlogItemLink:hover .Blogdate {
     color: #E2AD6B;
 }
-.BlogItemLink:hover .BlogTitle{
+
+.BlogItemLink:hover .BlogTitle {
     color: #fff;
 }
-.BlogItemLink:hover .Arrow{
+
+.BlogItemLink:hover .Arrow {
     background-color: #E2AD6B;
 }
-.BlogImage{
+
+.BlogImage {
     border-radius: 25px;
 }
-.FooterLogo{
+
+.FooterLogo {
     max-width: 150px;
 }
-.FooterDesc{
+
+.FooterDesc {
     color: #9D9D9D;
     margin-top: 15px;
     margin-bottom: 30px;
 }
-.footerbottom{
+
+.footerbottom {
     background-color: #E2AD6B;
     padding: 10px 0px;
     color: #fff;
 }
-.footerbottom a{
+
+.footerbottom a {
     color: #fff !important;
 }
-.SocialMediaIcon{
+
+.SocialMediaIcon {
     display: inline-block;
     width: 20px;
     height: 25px;
     background-size: 100% 100%;
 }
-.SocialMediaIcon.tiktok{
+
+.SocialMediaIcon.tiktok {
     background-image: url(../images/tiktok.png);
 }
-.SocialMediaIcon.instagram{
+
+.SocialMediaIcon.instagram {
     background-image: url(../images/instagram.png);
     width: 25px;
 }
-.SocialMediaIcon.facebook{
+
+.SocialMediaIcon.facebook {
     background-image: url(../images/facebook.png);
     width: 15px;
 }
-.SocialMediaIcon.linkedin{
+
+.SocialMediaIcon.linkedin {
     background-image: url(../images/linkedin.png);
     width: 25px;
 }
-.SocialMediaIcon.twitter{
+
+.SocialMediaIcon.twitter {
     background-image: url(../images/twitter.png);
     width: 25px;
 }
-.SocialMediaLinks a{
+
+.SocialMediaLinks a {
     display: inline-block;
     margin: 0 7px;
 }
-.SocialMediaLinks a:first-child{
+
+.SocialMediaLinks a:first-child {
     margin-left: 0;
 }
-.NewT1{
+
+.NewT1 {
     font-size: 20px;
     color: #fff;
     margin-bottom: 5px;
 }
-.NewT2{
+
+.NewT2 {
     font-size: 15px;
     color: #fff;
     margin-bottom: 15px;
 }
-.Form1{
-margin-bottom: 15px;
+
+.Form1 {
+    margin-bottom: 15px;
 }
-.Form1 input{
+
+.Form1 input {
     width: 100%;
     padding: 10px;
     box-shadow: none !important;
@@ -837,11 +883,13 @@ margin-bottom: 15px;
     background-color: #002341;
     color: #fff;
 }
-.Form1 input:focus{
+
+.Form1 input:focus {
     outline: none;
 
 }
-.Form1 button{
+
+.Form1 button {
     padding: 10px;
     cursor: pointer;
     position: absolute;
@@ -852,31 +900,39 @@ margin-bottom: 15px;
     background-color: #E2AD6B;
     border-color: #E2AD6B;
     transition: 0.4s;
+    color: #002341 !important;
 }
-.Form1 button:hover{
+
+.Form1 button:hover {
     background-color: #737373;
     color: #fff;
 }
+
 footer .container {
     max-width: 1200px;
 }
-.FtLink1{
+
+.FtLink1 {
     color: #fff;
     margin-bottom: 5px;
 }
-.FtLink2{
+
+.FtLink2 {
     color: #E2AD6B;
     display: block;
     margin-bottom: 5px;
 }
-.FtLink2:hover{
+
+.FtLink2:hover {
     color: #707070;
 }
-.ContactInfoBox{
+
+.ContactInfoBox {
     margin-top: 10px;
     position: relative;
 }
-.ContactInfoBox::after{
+
+.ContactInfoBox::after {
     content: "";
     width: 100px;
     height: 100px;
@@ -886,7 +942,8 @@ footer .container {
     top: 0;
     right: 0;
 }
-.MenuButton{
+
+.MenuButton {
     margin-left: 25px;
     cursor: pointer;
     padding: 10px;
@@ -894,40 +951,48 @@ footer .container {
     border-radius: 50%;
     border: 2px solid #fff;
 }
-.MenuButton:hover{
+
+.MenuButton:hover {
     border: 2px solid #E2AD6B;
 }
-.MenuIcon{
+
+.MenuIcon {
     background-image: url(../images/menu.png);
     width: 30px;
     height: 30px;
     background-size: 100% 100%;
 }
-.FullWidthHeight{
+
+.FullWidthHeight {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 99;
 }
-.PopUpHeaderBox{
+
+.PopUpHeaderBox {
     display: flex;
-  justify-content: space-between;
-  padding: 10px 0px;
-  align-items: center;
-background-color: #fff;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+    background-color: #fff;
 }
-.PopUpHeaderBoxLeft{
+
+.PopUpHeaderBoxLeft {
     flex: 0 0 150px;
-  max-width: 150px;
+    max-width: 150px;
 }
-.max-width-100{
+
+.max-width-100 {
     max-width: 100%;
 }
-.PopUpHeaderBoxMiddle{
+
+.PopUpHeaderBoxMiddle {
     font-size: 28px;
 }
-.CloseButton{
+
+.CloseButton {
     width: 25px;
     height: 25px;
     background-image: url(../images/close.png);
@@ -936,15 +1001,20 @@ background-color: #fff;
     position: relative;
     z-index: 1;
 }
-.MenuPOpup1 ,.MenuPOpup2{
+
+.MenuPOpup1,
+.MenuPOpup2 {
     display: none;
 }
-.menuPopupActivated .MenuPOpup1{
+
+.menuPopupActivated .MenuPOpup1 {
     display: block;
 }
-.contactPopupActivated .MenuPOpup2{
+
+.contactPopupActivated .MenuPOpup2 {
     display: block;
 }
+
 .FtrLinkP {
     padding: 10px 15px;
     background: #E2AD6B;
@@ -955,12 +1025,15 @@ background-color: #fff;
     position: relative;
 
 }
-.cursor-pointer{
+
+.cursor-pointer {
     cursor: pointer;
 }
-.FtrLinkP:hover{
+
+.FtrLinkP:hover {
     opacity: 0.8;
 }
+
 .FtrLinkP:after {
     content: "";
     background-image: url(../images/arrow2.png);
@@ -973,36 +1046,45 @@ background-color: #fff;
     position: relative;
     top: 2px;
 }
-.PopUpFooterBox{
+
+.PopUpFooterBox {
     padding: 15px 0px;
-  background-color: #fff;
-}
-.bgf{
     background-color: #fff;
 }
-.PopupContentBox{
+
+.bgf {
+    background-color: #fff;
+}
+
+.PopupContentBox {
     padding: 20px;
 }
-.PopupContentBox .row{
+
+.PopupContentBox .row {
     align-items: center;
 }
-.PopUpFooterBox .row{
+
+.PopUpFooterBox .row {
     align-items: center;
 }
-.PopUpFooterBox .col-md-10{
+
+.PopUpFooterBox .col-md-10 {
     font-size: 20px;
 }
-.PopupContentBoxT1{
+
+.PopupContentBoxT1 {
     font-size: 30px;
     color: #072341;
     padding: 15px 0px;
     border-bottom: 1px solid #707070;
     display: inline-block;
 }
+
 .PopupContentBoxT1.active,
-.PopupContentBoxT1:hover{
+.PopupContentBoxT1:hover {
     color: #E2AD6B;
 }
+
 .ContactItemLink {
     display: flex;
     width: 100%;
@@ -1012,8 +1094,9 @@ background-color: #fff;
     color: #69709d !important;
     padding: 15px 10px;
     position: relative;
-  }
-  .ContactItemLink::after {
+}
+
+.ContactItemLink::after {
     content: "";
     width: 100%;
     height: 1px;
@@ -1022,69 +1105,85 @@ background-color: #fff;
     bottom: 0;
     background-color: #888;
     opacity: .1;
-  }
-  .LLinkFle {
+}
+
+.LLinkFle {
     display: flex;
     align-items: center;
-  }
-  .LLinkFle .LLinkFleL {
+}
+
+.LLinkFle .LLinkFleL {
     flex: 0 0 55px;
-  }
-  .LLinkFle .LLinkFleR {
+}
+
+.LLinkFle .LLinkFleR {
     flex: 1 1;
-  }
-  .LLinkFleR1 {
+}
+
+.LLinkFleR1 {
     font-weight: 400;
     margin-bottom: 6px;
     text-transform: capitalize;
     font-size: 17px;
     color: #002341;
-  }
-  .LLinkFleR2 {
+}
+
+.LLinkFleR2 {
     font-size: 15px;
     color: #E2AD6B;
-  }
-  .SocialIcn{
+}
+
+.SocialIcn {
     width: 35px;
     height: 35px;
     background-size: 100% 100%;
-  }
- 
-  .widthfull{
+}
+
+.widthfull {
     width: 100%;
-  }
-  .SocialIcn.whatsapp{
+}
+
+.SocialIcn.whatsapp {
     background-image: url(../images/whatsapp.png);
-  }
-  .SocialIcn.email{
+}
+
+.SocialIcn.email {
     background-image: url(../images/email.png);
-  }
-  .SocialIcn.call{
+}
+
+.SocialIcn.call {
     background-image: url(../images/call.png);
-  }
-  .SocialIcn.instagram{
+}
+
+.SocialIcn.instagram {
     background-image: url(../images/instagram1.png);
-  }
-  .SocialIcn.tiktok{
+}
+
+.SocialIcn.tiktok {
     background-image: url(../images/tiktok1.png);
-  }
-  .PopuImage{
+}
+
+.PopuImage {
     width: 100%;
     border-radius: 25px;
-  }
-  .heightfull{
+}
+
+.heightfull {
     height: 100%;
-  }
-  .Ct1{
+}
+
+.Ct1 {
     font-size: 25px;
-  }
-  .Ct2{
+}
+
+.Ct2 {
     font-size: 18px;
     margin-bottom: 15px;
-  }
-  .PopupContactBox input,
-  .PopupContactBox select , 
-  .PopupContactBox textarea{
+}
+
+.PopupContactBox input,
+.PopupContactBox select,
+.PopupContactBox textarea {
     padding: 10px 15px;
     display: block;
     margin-bottom: 8px;
@@ -1095,8 +1194,9 @@ background-color: #fff;
     background-color: #fff;
     color: #002341;
     border-radius: 25px;
-  }
-  .PopupContactBox button{
+}
+
+.PopupContactBox button {
     padding: 10px;
     display: block;
     background-color: #E2AD6B;
@@ -1106,18 +1206,23 @@ background-color: #fff;
     border: 0px solid #e4e4e4;
     border-radius: 25px;
     cursor: pointer;
-  }
-  ::placeholder {
-  color: #002341;
-  opacity: 1; /* Firefox */
 }
 
-::-ms-input-placeholder { /* Edge 12-18 */
-  color: #002341;
+::placeholder {
+    color: #002341;
+    opacity: 1;
+    /* Firefox */
 }
-.mob-only{
+
+::-ms-input-placeholder {
+    /* Edge 12-18 */
+    color: #002341;
+}
+
+.mob-only {
     display: none;
 }
+
 .halo-sticky-toolbar-mobile {
     position: fixed;
     bottom: 0;
@@ -1129,286 +1234,379 @@ background-color: #fff;
     background: #fff;
     border: 1px solid #fff;
     overflow: hidden;
-  }
-  .bottom-bar {
+}
+
+.bottom-bar {
     padding: 3px 15px;
     min-height: 60px;
-  }
-  .bottom-bar--list {
+}
+
+.bottom-bar--list {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: space-between;
     margin: 0;
     align-items: center;
-  }
-  .bottom-bar--list li > a {
+}
+
+.bottom-bar--list li>a {
     padding: 7px 2px;
     display: block;
     pointer-events: auto;
     text-align: center;
     color: #002341;
-  }
-  .bottom-bar--list .icon img {
+}
+
+.bottom-bar--list .icon img {
     max-width: 25px;
-  }
-  .bottom-bar--list .icon + .text {
+}
+
+.bottom-bar--list .icon+.text {
     margin-top: 6px;
     line-height: 1;
     font-size: 11px;
-  }
-  @media only screen and (max-width: 1000px) {
-    .d-only{
+    color: #002341;
+}
+
+@media only screen and (max-width: 1000px) {
+    html {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    body {
+        position: relative;
+        overflow-x: hidden !important;
+    }
+
+    section {
+        overflow-x: hidden !important;
+    }
+
+    .d-only {
         display: none;
     }
-    .mob-only{
+
+    .mob-only {
         display: block;
     }
-    .HeaderBoxMiddle{
+
+    .HeaderBoxMiddle {
         display: none;
     }
-    body{
+
+    body {
         font-size: 15px;
         line-height: 1.2;
     }
+
     .Txt1 {
         font-size: 19px;
     }
+
     .Txt2 {
         font-size: 25px;
-      }
-      br{
+    }
+
+    br {
         display: none;
-      }
-      .HeaderBoxLeft {
+    }
+
+    .HeaderBoxLeft {
         flex: 0 0 115px;
         max-width: 115px;
-      }
-      .LanguageSwitcher svg {
+    }
+
+    .LanguageSwitcher svg {
         width: 22px;
         height: 30px;
-      }
-      .LanguageSwitcherLink {
+    }
+
+    .LanguageSwitcherLink {
         padding: 2px 15px;
         width: auto;
-      }
-      .MenuIcon {
+    }
+
+    .MenuIcon {
         width: 27px;
         height: 27px;
-      }
-      .Txt3 {
+    }
+
+    .Txt3 {
         font-size: 20px;
-      }
-      .HeroContactForm {
+    }
+
+    .HeroContactForm {
         padding: 10px;
         text-align: center;
         max-width: 80%;
         margin: 0 auto;
         background-color: #E2AD6B;
-      }
-      .LinkTp1 {
+    }
+
+    .LinkTp1 {
         width: 140px;
         margin-top: 15px;
-      }
-      .pd-common {
+    }
+
+    .pd-common {
         padding: 25px 0px;
-      }
-      .Txt5{
+    }
+
+    .Txt5 {
         font-size: 25px;
         padding-bottom: 15px;
         margin-bottom: 15px;
-      }
-      .Txt6 {
+    }
+
+    .Txt6 {
         margin-bottom: 10px;
-      }
-      .row.mb-15 {
+    }
+
+    .row.mb-15 {
         margin-bottom: 10px !important;
-      }
-      .MobileMar1{
+    }
+
+    .MobileMar1 {
         margin-top: 10px;
-      }
-      .ServiceBlocks .col-md-3 {
+    }
+
+    .ServiceBlocks .col-md-3 {
         padding: 5px 0px;
         border-right: 0px solid #9D9D9D;
         flex: 0 0 50%;
         max-width: 50%;
-      }
-      .T1 {
+    }
+
+    .T1 {
         font-size: 20px;
-      }
-      .T2 {
+    }
+
+    .T2 {
         font-size: 25px;
         margin-bottom: 0px;
-      }
-      .ServiceBlocks {
+    }
+
+    .ServiceBlocks {
         margin-top: 15px;
-      }
-      .brb {
+    }
+
+    .brb {
         border-bottom: 0px solid #9D9D9D;
-      }
-      .ServiceBlockImage.image1 {
+    }
+
+    .ServiceBlockImage.image1 {
         width: 65px;
-      }
-      .ServiceBlockImage.image2 {
+    }
+
+    .ServiceBlockImage.image2 {
         width: 65px;
-      }
-      .ServiceBlockImage.image3 {
+    }
+
+    .ServiceBlockImage.image3 {
         width: 65px;
-      }
-      .ServiceBlockImage.image4 {
+    }
+
+    .ServiceBlockImage.image4 {
         width: 65px;
-      }
-      .ServiceBlockImage.image5 {
+    }
+
+    .ServiceBlockImage.image5 {
         width: 65px;
-      }
-      .ServiceBlockImage.image6 {
+    }
+
+    .ServiceBlockImage.image6 {
         width: 65px;
-      }
-      .ServiceBlockImage.image7 {
+    }
+
+    .ServiceBlockImage.image7 {
         width: 65px;
-      }
-      .ServiceBlockImage.image8 {
+    }
+
+    .ServiceBlockImage.image8 {
         width: 65px;
-      }
-      .ServiceBlock {
+    }
+
+    .ServiceBlock {
         padding: 15px;
-      }
-      .LinkTp3 {
+    }
+
+    .LinkTp3 {
         margin-top: 20px;
-      }
-      .T5 {
+    }
+
+    .T5 {
         font-size: 20px;
         margin-bottom: 5px;
-      }
-      .AccordionQuestion {
+    }
+
+    .AccordionQuestion {
         font-size: 17px;
         padding: 10px 40px 10px 21px;
-      }
-      .AccordionItem {
+    }
+
+    .AccordionItem {
         margin-bottom: 10px;
-      }
-      .AccordionQuestion::after {
+    }
+
+    .AccordionQuestion::after {
         width: 9px;
         height: 14px;
         right: 17px;
         top: 13px;
-      }
-      .AtT1 {
+    }
+
+    .AtT1 {
         font-size: 20px;
-      }
-      .AtT2 {
+    }
+
+    .AtT2 {
         font-size: 25px;
-      }
-      .HeaderBxTp1 {
+    }
+
+    .HeaderBxTp1 {
         margin-bottom: 20px;
-      }
-      .SlickWrap1 {
+    }
+
+    .SlickWrap1 {
         margin: 0 -15px;
-      }
-      .SlickWrap1 .slick-next,
-      .SlickWrap1 .slick-prev {
+    }
+
+    .SlickWrap1 .slick-next,
+    .SlickWrap1 .slick-prev {
         display: none !important;
-      }
-      .MemberName {
+    }
+
+    .MemberName {
         font-size: 18px;
-      }
-      .OpT1 {
+    }
+
+    .OpT1 {
         font-size: 20px;
-      }
-      .OpT2 {
+    }
+
+    .OpT2 {
         font-size: 25px;
         line-height: 1.2;
-      }
-      .partnerBlock {
+    }
+
+    .partnerBlock {
         margin-top: 20px;
-      }
-      .SlickWrap1 .slick-dots li button {
+    }
+
+    .SlickWrap1 .slick-dots li button {
         width: 10px;
         height: 10px;
-      }
-      .SlickWrap1 .slick-dots li {
+    }
+
+    .SlickWrap1 .slick-dots li {
         width: 10px;
         height: 10px;
-      }
-      .SlickWrap1 .slick-dots {
+    }
+
+    .SlickWrap1 .slick-dots {
         margin-top: 15px;
-      }
-      .OtherAccordionItemQuestion {
+    }
+
+    .OtherAccordionItemQuestion {
         font-size: 18px;
-      }
-      .OtherAccordionItem {
+    }
+
+    .OtherAccordionItem {
         padding: 12px 0px;
-      }
-      .AnswerBoxHd {
+    }
+
+    .AnswerBoxHd {
         font-size: 18px;
-      }
-      .TestHead {
+    }
+
+    .TestHead {
         font-size: 18px;
         margin: 10px 0px;
         line-height: 1.1;
-      }
-      .TestimonialCard {
+    }
+
+    .TestimonialCard {
         margin: 0 5px;
-      }
-      .TeamCard {
+    }
+
+    .TeamCard {
         padding: 0px 5px;
-      }
-      .NewT1 {
+    }
+
+    .NewT1 {
         font-size: 18px;
         color: #fff;
         margin-bottom: 5px;
         margin-top: 15px;
-      }
-      .MobileClmn1{
+    }
+
+    .MobileClmn1 {
         justify-content: center;
         padding: 15px 0px;
-      }
-      .MobileClmn1 .col-md-4{
+    }
+
+    .MobileClmn1 .col-md-4 {
         flex: 0 0 50%;
         max-width: 50%;
         text-align: center;
-      }
-      .ContactInfoBox::after {
+    }
+
+    .ContactInfoBox::after {
         width: 60px;
         height: 60px;
-      }
-      .FooterDesc {
+    }
+
+    .FooterDesc {
         color: #fff;
-      }
-      .footerbottom ,
-      .footerbottom .text-right{
+    }
+
+    .footerbottom,
+    .footerbottom .text-right {
         text-align: center !important;
-      }
-      .PopUpHeaderBoxLeft {
+    }
+
+    .PopUpHeaderBoxLeft {
         flex: 0 0 90px;
         max-width: 90px;
-      }
-      .PopUpHeaderBoxMiddle {
+    }
+
+    .PopUpHeaderBoxMiddle {
         font-size: 20px;
-      }
-      .CloseButton {
+    }
+
+    .CloseButton {
         width: 20px;
         height: 20px;
-      }
-      .heightfull {
+    }
+
+    .heightfull {
         height: auto;
-      }
-      .PopUpFooterBox .col-md-10 {
+    }
+
+    .PopUpFooterBox .col-md-10 {
         font-size: 17px;
         text-align: center;
         margin-bottom: 10px;
-      }
-      .PopUpFooterBox .col-md-2{
+    }
+
+    .PopUpFooterBox .col-md-2 {
         text-align: center;
-      }
-      .PopUpFooterBox {
+    }
+
+    .PopUpFooterBox {
         padding: 10px 0px;
         background-color: #fff;
-      }
-      .Ct1{
+    }
+
+    .Ct1 {
         display: none;
-      }
-      .HeaderBox {
+    }
+
+    .HeaderBox {
         padding: 5px 0px;
-      }
-  }
+    }
+}
