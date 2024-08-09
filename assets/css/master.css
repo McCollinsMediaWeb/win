@@ -1096,7 +1096,25 @@ background-color: #fff;
     color: #002341;
     border-radius: 25px;
   }
+  .PopupContactBox button{
+    padding: 10px;
+    display: block;
+    background-color: #E2AD6B;
+    width: 100%;
+    max-width: 150px;
+    text-align: center;
+    border: 0px solid #e4e4e4;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  ::placeholder {
+  color: #002341;
+  opacity: 1; /* Firefox */
+}
 
+::-ms-input-placeholder { /* Edge 12-18 */
+  color: #002341;
+}
   @media only screen and (max-width: 1000px) {
     .HeaderBoxMiddle{
         display: none;
@@ -1129,5 +1147,162 @@ background-color: #fff;
       .MenuIcon {
         width: 27px;
         height: 27px;
+      }
+      .Txt3 {
+        font-size: 20px;
+      }
+      .HeroContactForm {
+        padding: 10px;
+        text-align: center;
+        max-width: 80%;
+        margin: 0 auto;
+        background-color: #E2AD6B;
+      }
+      .LinkTp1 {
+        width: 140px;
+        margin-top: 15px;
+      }
+      .pd-common {
+        padding: 25px 0px;
+      }
+      .Txt5{
+        font-size: 25px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+      }
+      .Txt6 {
+        margin-bottom: 10px;
+      }
+      .row.mb-15 {
+        margin-bottom: 10px !important;
+      }
+      .MobileMar1{
+        margin-top: 10px;
+      }
+      .ServiceBlocks .col-md-3 {
+        padding: 5px 0px;
+        border-right: 0px solid #9D9D9D;
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+      .T1 {
+        font-size: 20px;
+      }
+      .T2 {
+        font-size: 25px;
+        margin-bottom: 0px;
+      }
+      .ServiceBlocks {
+        margin-top: 15px;
+      }
+      .brb {
+        border-bottom: 0px solid #9D9D9D;
+      }
+      .ServiceBlockImage.image1 {
+        width: 65px;
+      }
+      .ServiceBlockImage.image2 {
+        width: 65px;
+      }
+      .ServiceBlockImage.image3 {
+        width: 65px;
+      }
+      .ServiceBlockImage.image4 {
+        width: 65px;
+      }
+      .ServiceBlockImage.image5 {
+        width: 65px;
+      }
+      .ServiceBlockImage.image6 {
+        width: 65px;
+      }
+      .ServiceBlockImage.image7 {
+        width: 65px;
+      }
+      .ServiceBlockImage.image8 {
+        width: 65px;
+      }
+      .ServiceBlock {
+        padding: 15px;
+      }
+      .LinkTp3 {
+        margin-top: 20px;
+      }
+      .T5 {
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+      .AccordionQuestion {
+        font-size: 17px;
+        padding: 10px 40px 10px 21px;
+      }
+      .AccordionItem {
+        margin-bottom: 10px;
+      }
+      .AccordionQuestion::after {
+        width: 9px;
+        height: 14px;
+        right: 17px;
+        top: 13px;
+      }
+      .AtT1 {
+        font-size: 20px;
+      }
+      .AtT2 {
+        font-size: 25px;
+      }
+      .HeaderBxTp1 {
+        margin-bottom: 20px;
+      }
+      .SlickWrap1 {
+        margin: 0 -15px;
+      }
+      .SlickWrap1 .slick-next,
+      .SlickWrap1 .slick-prev {
+        display: none !important;
+      }
+      .MemberName {
+        font-size: 18px;
+      }
+      .OpT1 {
+        font-size: 20px;
+      }
+      .OpT2 {
+        font-size: 25px;
+        line-height: 1.2;
+      }
+      .partnerBlock {
+        margin-top: 20px;
+      }
+      .SlickWrap1 .slick-dots li button {
+        width: 10px;
+        height: 10px;
+      }
+      .SlickWrap1 .slick-dots li {
+        width: 10px;
+        height: 10px;
+      }
+      .SlickWrap1 .slick-dots {
+        margin-top: 15px;
+      }
+      .OtherAccordionItemQuestion {
+        font-size: 18px;
+      }
+      .OtherAccordionItem {
+        padding: 12px 0px;
+      }
+      .AnswerBoxHd {
+        font-size: 18px;
+      }
+      .TestHead {
+        font-size: 18px;
+        margin: 10px 0px;
+        line-height: 1.1;
+      }
+      .TestimonialCard {
+        margin: 0 5px;
+      }
+      .TeamCard {
+        padding: 0px 5px;
       }
   }

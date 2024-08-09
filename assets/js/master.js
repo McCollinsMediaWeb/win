@@ -328,6 +328,7 @@ $(".team").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 2,
+        centerMode: true,
       },
     },
     {
@@ -335,6 +336,7 @@ $(".team").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        centerMode: true,
       },
     },
   ],
@@ -362,6 +364,7 @@ $(".partnerBlock").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 2,
+        centerMode: true,
       },
     },
     {
@@ -369,6 +372,7 @@ $(".partnerBlock").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        centerMode: true,
       },
     },
   ],
@@ -396,6 +400,7 @@ $(".testimonials").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 2,
+        centerMode: true,
       },
     },
     {
@@ -403,6 +408,7 @@ $(".testimonials").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        centerMode: true,
       },
     },
   ],
@@ -430,6 +436,7 @@ $(".BlogSliderBox").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 2,
+        centerMode: true,
       },
     },
     {
@@ -437,6 +444,7 @@ $(".BlogSliderBox").slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        centerMode: true,
       },
     },
   ],
