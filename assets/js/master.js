@@ -4,7 +4,7 @@ $(document).ready(
         HeaderHeight = jQuery("header").innerHeight();
         // jQuery('.FullWidthHeight').css('height', (windowHeight-HeaderHeight)+'px');
         jQuery('.FullWidthHeight').css('height', (windowHeight)+'px');
-      
+        
         jQuery(window).scroll(function () {
           var scroll = jQuery(window).scrollTop();
       
@@ -283,6 +283,18 @@ $('.OtherAccordionItemQuestion').click(function(e) {
       $this.next().slideToggle(350);
   }
 });
+$(document).ready(function(){
+  
+  jQuery(".MenuButton , .CloseButton1").click(function () {
+    jQuery("body").toggleClass("menuPopupActivated");
+        windowHeight = jQuery(window).innerHeight();
+        PopupHeaderHeight= jQuery(".PopUpHeaderBoxWrap").innerHeight();
+        PopuuFooterHeight= jQuery(".PopUpFooterBoxWrap").innerHeight();
+        totalGap = PopupHeaderHeight + PopuuFooterHeight;
+        jQuery('.PopupContentBox').css('height', (windowHeight - totalGap )+'px');
+        
+  });
+});
 $(".team").slick({
   dots: true,
   infinite: true,
@@ -419,3 +431,4 @@ $(".BlogSliderBox").slick({
     },
   ],
 });
+

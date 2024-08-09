@@ -925,5 +925,147 @@ background-color: #fff;
     max-width: 100%;
 }
 .PopUpHeaderBoxMiddle{
-    font-size: 30px;
+    font-size: 28px;
 }
+.CloseButton{
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/close.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.MenuPOpup{
+    display: none;
+}
+.menuPopupActivated .MenuPOpup{
+    display: block;
+}
+.FtrLinkP {
+    padding: 10px 15px;
+    background: #E2AD6B;
+    color: #072341;
+    border-radius: 50px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+
+}
+.FtrLinkP:hover{
+    opacity: 0.8;
+}
+.FtrLinkP:after {
+    content: "";
+    background-image: url(../images/arrow2.png);
+    width: 10px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    top: 2px;
+}
+.PopUpFooterBox{
+    padding: 15px 0px;
+  background-color: #fff;
+}
+.bgf{
+    background-color: #fff;
+}
+.PopupContentBox{
+    padding: 20px;
+}
+.PopupContentBox .row{
+    align-items: center;
+}
+.PopUpFooterBox .row{
+    align-items: center;
+}
+.PopUpFooterBox .col-md-10{
+    font-size: 20px;
+}
+.PopupContentBoxT1{
+    font-size: 30px;
+    color: #072341;
+    padding: 15px 0px;
+    border-bottom: 1px solid #707070;
+    display: inline-block;
+}
+.PopupContentBoxT1.active,
+.PopupContentBoxT1:hover{
+    color: #E2AD6B;
+}
+.ContactItemLink {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-weight: 300;
+    font-size: 19px;
+    color: #69709d !important;
+    padding: 15px 10px;
+    position: relative;
+  }
+  .ContactItemLink::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #888;
+    opacity: .1;
+  }
+  .LLinkFle {
+    display: flex;
+    align-items: center;
+  }
+  .LLinkFle .LLinkFleL {
+    flex: 0 0 55px;
+  }
+  .LLinkFle .LLinkFleR {
+    flex: 1 1;
+  }
+  .LLinkFleR1 {
+    font-weight: 400;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: #002341;
+  }
+  .LLinkFleR2 {
+    font-size: 15px;
+    color: #E2AD6B;
+  }
+  .SocialIcn{
+    width: 35px;
+    height: 35px;
+    background-size: 100% 100%;
+  }
+ 
+  .widthfull{
+    width: 100%;
+  }
+  .SocialIcn.whatsapp{
+    background-image: url(../images/whatsapp.png);
+  }
+  .SocialIcn.email{
+    background-image: url(../images/email.png);
+  }
+  .SocialIcn.call{
+    background-image: url(../images/call.png);
+  }
+  .SocialIcn.instagram{
+    background-image: url(../images/instagram1.png);
+  }
+  .SocialIcn.tiktok{
+    background-image: url(../images/tiktok1.png);
+  }
+  .PopuImage{
+    width: 100%;
+    border-radius: 25px;
+  }
+  .heightfull{
+    height: 100%;
+  }
