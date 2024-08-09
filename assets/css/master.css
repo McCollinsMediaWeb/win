@@ -1616,4 +1616,7 @@ footer .container {
         overflow-x: hidden !important;
         max-width: 100% !important;
     }
+    button{
+        color: #002341 !important;
+    }
 }
