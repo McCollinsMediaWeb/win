@@ -1280,6 +1280,7 @@ footer .container {
     body {
         position: relative;
         overflow-x: hidden !important;
+        max-width: 100% !important;
     }
 
     section {
