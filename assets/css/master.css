@@ -1272,10 +1272,6 @@ footer .container {
 @media only screen and (max-width: 1000px) {
    
 
-    section {
-        overflow-x: hidden !important;
-    }
-
     .d-only {
         display: none;
     }
