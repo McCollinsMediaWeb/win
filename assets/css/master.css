@@ -1609,4 +1609,7 @@ footer .container {
     .HeaderBox {
         padding: 5px 0px;
     }
+    html{
+        overflow-x: hidden;
+    }
 }
