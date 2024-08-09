@@ -1270,18 +1270,7 @@ footer .container {
 }
 
 @media only screen and (max-width: 1000px) {
-    html {
-        width: 100%;
-        height: 100%;
-        overflow-x: hidden;
-        position: relative;
-    }
-
-    body {
-        position: relative;
-        overflow-x: hidden !important;
-        max-width: 100% !important;
-    }
+   
 
     section {
         overflow-x: hidden !important;
@@ -1610,12 +1599,21 @@ footer .container {
     .HeaderBox {
         padding: 5px 0px;
     }
-    html{
-        overflow-x: hidden;
-    }
+   
     .HeaderBoxRight {
         flex: 1 1;
         max-width: 100%;
       }
+      html {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        position: relative;
+    }
 
+    body {
+        position: relative;
+        overflow-x: hidden !important;
+        max-width: 100% !important;
+    }
 }
