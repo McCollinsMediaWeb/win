@@ -936,10 +936,13 @@ background-color: #fff;
     position: relative;
     z-index: 1;
 }
-.MenuPOpup{
+.MenuPOpup1 ,.MenuPOpup2{
     display: none;
 }
-.menuPopupActivated .MenuPOpup{
+.menuPopupActivated .MenuPOpup1{
+    display: block;
+}
+.contactPopupActivated .MenuPOpup2{
     display: block;
 }
 .FtrLinkP {
@@ -951,6 +954,9 @@ background-color: #fff;
     text-align: center;
     position: relative;
 
+}
+.cursor-pointer{
+    cursor: pointer;
 }
 .FtrLinkP:hover{
     opacity: 0.8;
@@ -1068,4 +1074,60 @@ background-color: #fff;
   }
   .heightfull{
     height: 100%;
+  }
+  .Ct1{
+    font-size: 25px;
+  }
+  .Ct2{
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .PopupContactBox input,
+  .PopupContactBox select , 
+  .PopupContactBox textarea{
+    padding: 10px 15px;
+    display: block;
+    margin-bottom: 8px;
+    border: 1px solid #002341;
+    outline: none !important;
+    box-shadow: none !important;
+    width: 100%;
+    background-color: #fff;
+    color: #002341;
+    border-radius: 25px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .HeaderBoxMiddle{
+        display: none;
+    }
+    body{
+        font-size: 15px;
+        line-height: 1.2;
+    }
+    .Txt1 {
+        font-size: 19px;
+    }
+    .Txt2 {
+        font-size: 25px;
+      }
+      br{
+        display: none;
+      }
+      .HeaderBoxLeft {
+        flex: 0 0 125px;
+        max-width: 125px;
+      }
+      .LanguageSwitcher svg {
+        width: 22px;
+        height: 30px;
+      }
+      .LanguageSwitcherLink {
+        padding: 2px 15px;
+        width: auto;
+      }
+      .MenuIcon {
+        width: 27px;
+        height: 27px;
+      }
   }

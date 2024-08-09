@@ -285,13 +285,23 @@ $('.OtherAccordionItemQuestion').click(function(e) {
 });
 $(document).ready(function(){
   
-  jQuery(".MenuButton , .CloseButton1").click(function () {
-    jQuery("body").toggleClass("menuPopupActivated");
+  $(".MenuButton , .CloseButton1").click(function () {
+      jQuery("body").toggleClass("menuPopupActivated");
         windowHeight = jQuery(window).innerHeight();
-        PopupHeaderHeight= jQuery(".PopUpHeaderBoxWrap").innerHeight();
-        PopuuFooterHeight= jQuery(".PopUpFooterBoxWrap").innerHeight();
-        totalGap = PopupHeaderHeight + PopuuFooterHeight;
-        jQuery('.PopupContentBox').css('height', (windowHeight - totalGap )+'px');
+        PopupHeaderHeight1= jQuery(".PopUpHeaderBoxWrap1").innerHeight();
+        PopuuFooterHeight1= jQuery(".PopUpFooterBoxWrap1").innerHeight();
+        totalGap = PopupHeaderHeight1 + PopuuFooterHeight1;
+        jQuery('.PopupContentBox1').css('height', (windowHeight - totalGap )+'px');
+       
+  });
+  $(".contactPopupButton , .contactPopupClose").click(function () {
+        jQuery("body").toggleClass("contactPopupActivated");
+        
+        windowHeight = jQuery(window).innerHeight();
+        PopupHeaderHeight2= jQuery(".PopUpHeaderBoxWrap2").innerHeight();
+        PopuuFooterHeight2= jQuery(".PopUpFooterBoxWrap2").innerHeight();
+        totalGap = PopupHeaderHeight2 + PopuuFooterHeight2;
+        jQuery('.PopupContentBox2').css('height', (windowHeight - totalGap )+'px');
         
   });
 });
