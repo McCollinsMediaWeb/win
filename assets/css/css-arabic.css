@@ -35,3 +35,6 @@
         "slnt" 0; */
         text-align: right;
   }
+  [dir="rtl"] .slick-prev {
+    right: auto !important;
+  }
