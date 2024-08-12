@@ -27,11 +27,11 @@
 
 
   body{
-    font-family: "Cairo", sans-serif;
+    /* font-family: "Cairo", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     font-variation-settings:
-        "slnt" 0;
+        "slnt" 0; */
         text-align: right;
   }
