@@ -1365,6 +1365,39 @@ footer .container {
   .NumbersINMoving .col-md-3:last-child{
     border-right: 0px solid #737373;
   }
+  .NavBar1{
+    list-style: none;
+    display: flex;
+  }
+  .NavBar1 li{
+    position: relative;
+  }
+  .DropDownMenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #E2AD6B;
+    padding: 20px;
+    border-radius: 20px;
+    z-index: 5;
+    width: 220px;
+
+  }
+  .DropDownMenu a{
+    display: block;
+    font-size: 16px;
+    padding: 8px 0px;
+  }
+  .DropDownMenu a:hover{
+    color: #fff;
+  }
+  .DropDownMenu a::after{
+    content: none !important;
+  }
+  .NavBar1 li:hover .DropDownMenu{
+    display: block;
+  }
 @media only screen and (max-width: 1000px) {
    section{
     overflow: hidden;
