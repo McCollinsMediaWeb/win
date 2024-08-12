@@ -145,8 +145,11 @@ img {
 
 .mainbannerImg {
     width: 100%;
+    object-fit: cover;
 }
-
+.brd20{
+    border-radius: 25px;
+}
 .StickHeader header {
     position: fixed;
     left: 0;
