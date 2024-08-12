@@ -5,3 +5,8 @@
   .LanguageSwitcherLink{
     direction: ltr !important;
   }
+  .LanguageSwitcherLink.arabic{
+    font-family: 'Barlow' !important;
+    font-weight: 500;
+    font-style: normal;
+  }
