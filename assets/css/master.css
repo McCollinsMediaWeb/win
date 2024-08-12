@@ -1271,6 +1271,91 @@ footer .container {
 .PageHeaderImg {
     width: 100%;
 }
+.PageHeaderContent{
+    color: #fff;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: end;
+    align-items: center;
+    top: 0;
+  left: 0;
+  z-index: 1;
+  position: absolute;
+}
+.fullWidth{
+    width: 100%;
+}
+.EndFlexBox{
+    text-align: right;
+}
+.PageSubHd{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.PageMainHd {
+    margin-bottom: 0;
+    font-size: 45px;
+}
+.Pt1 {
+    color: #E2AD6B;
+    text-align: center;
+    font-size: 30px;
+  }
+  .Pt2{
+    text-align: center;
+  font-size: 45px;
+  }
+  .Pt3{
+    margin-bottom: 50px;
+  }
+  .ProcessBlock{
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #002341;
+    color: #fff;
+  }
+  .ProcessBlockT1{
+    font-size: 22px;
+  }
+  .ProcessBlockT2 span{
+    background-color: #E2AD6B;
+    height: 2px;
+    width: 30%;
+    display: inline-block;
+    margin: 10px auto;
+  }
+  .color-fff{
+    color: #fff;
+  }
+  .NumbersINMoving{
+    margin-top: 40px;
+  }
+  .NumbersINMoving1 {
+    font-size: 45px;
+  }
+  .NumbersINMoving2 {
+    font-size: 25px;
+  }
+  .NumbersINMoving1Icn{
+    background-size: 100% 100%;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .NumbersINMoving1Icn.Icn1{
+    background-image: url(../images/ab1.png);
+  }
+  .NumbersINMoving1Icn.Icn2{
+    background-image: url(../images/ab2.png);
+  }
+  .NumbersINMoving1Icn.Icn3{
+    background-image: url(../images/ab3.png);
+  }
+  .NumbersINMoving1Icn.Icn4{
+    background-image: url(../images/ab4.png);
+  }
 @media only screen and (max-width: 1000px) {
    section{
     overflow: hidden;
