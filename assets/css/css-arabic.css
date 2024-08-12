@@ -93,3 +93,7 @@
   .col-md-6.text-right{
     text-align: left !important;
   }
+  .Form1 button {
+    right: auto;
+    left: 0;
+  }
