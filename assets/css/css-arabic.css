@@ -54,3 +54,8 @@
     position: relative;
     top: 2px;
   }
+  .LinkTp1::after {
+    margin-left: 0;
+    transform: rotate(180deg);
+    margin-right:15px ;
+  }  
