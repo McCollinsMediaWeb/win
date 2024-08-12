@@ -1268,7 +1268,9 @@ footer .container {
     font-size: 11px;
     color: #002341;
 }
-
+.PageHeaderImg {
+    width: 100%;
+}
 @media only screen and (max-width: 1000px) {
    section{
     overflow: hidden;
