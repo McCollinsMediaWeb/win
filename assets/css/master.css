@@ -1488,6 +1488,37 @@ color: #E2AD6B;
 text-align: center;
 line-height: 1;
   }
+  .BannerSection {
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+  }
+  .BannerSection.bgImage1{
+    background-image: url(../images/bg1.jpg);
+  }
+  .BannerSection::after{
+    content: "";
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .BannerSectionT1{
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+  }
+  .BannerSectionContBox{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 440px;
+  }
 @media only screen and (max-width: 1000px) {
    section{
     overflow: hidden;
