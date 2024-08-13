@@ -2251,4 +2251,24 @@ font-size: 18px;
       .ContactDetailBox {
         margin-top: 10px;
       }
+      .ContactBoxT1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      .Type2 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+      }
+      .ContactFormK1 {
+        font-size: 20px;
+      }
+      .ContactFormK2 {
+        margin-bottom: 15px;
+      }
+      .ContactForm1 .col-md-6 {
+        margin-bottom: 5px;
+      }
+      .ContactForm1 button{
+        width: 100%;
+      }
 }
