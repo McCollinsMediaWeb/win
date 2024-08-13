@@ -1398,6 +1398,96 @@ footer .container {
   .NavBar1 li:hover .DropDownMenu{
     display: block;
   }
+  .srvBoxT1 {
+    font-size: 45px;
+    position: relative;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    line-height: 1.1;
+  }
+  .srvBoxT1::after {
+    content: "";
+    background-color: #E2AD6B;
+    width: 70%;
+    height: 2px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+  }
+  .srvBox .row{
+    align-items: center;
+  }
+  .ServiceBoxHeadeing{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .ServiceBoxDesc{
+    color: #737373;
+  }
+  .ServiceBoxIcon{
+    width: 80px;
+    height: 70px;
+    background-size: 100% 100%;
+    margin-bottom: 10px;
+  }
+  .ServiceBoxIcon.icon1{
+    background-image: url(../images/ic1.png);
+  }
+  .ServiceBoxIcon.icon2{
+    background-image: url(../images/ic2.png);
+  }
+  .ServiceBoxIcon.icon3{
+    background-image: url(../images/ic3.png);
+  }
+  .ServiceBoxIcon.icon4{
+    background-image: url(../images/ic4.png);
+  }
+  .ServiceBoxIcon.icon5{
+    background-image: url(../images/ic5.png);
+  }
+  .ServiceBoxIcon.icon6{
+    background-image: url(../images/ic6.png);
+  }
+  .ServiceBoxIcon.icon7{
+    background-image: url(../images/ic7.png);
+  }
+  .ServiceBoxIcon.icon8{
+    background-image: url(../images/ic8.png);
+  }
+  .ServiceBox{
+    margin-bottom: 25px;
+  }
+  .LegalServiceBox{
+    margin-top: 40px;
+  }
+  .PriceT1{
+    color: #E2AD6B;
+  font-size: 30px;
+  margin-bottom: 5px;
+  }
+  .PriceT2{
+    text-align: center;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 5px;
+  }
+  .PriceT3{
+    margin-bottom: 45px;
+  }
+  .ProcessBlock.ServiceB{
+    background-color: #fff;
+    margin-bottom: 30px;
+  }
+  .ProcessBlock.ServiceB .ProcessBlockT1{
+    color: #002341;
+  }
+  .ProcessBlock.ServiceB .ProcessBlockT3{
+font-size: 30px;
+color: #E2AD6B;
+text-align: center;
+line-height: 1;
+  }
 @media only screen and (max-width: 1000px) {
    section{
     overflow: hidden;
