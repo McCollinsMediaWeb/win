@@ -301,6 +301,15 @@ $('.ServiceAccordionItemQuestion').click(function(e) {
       $this.next().slideToggle(350);
   }
 });
+$('.AccordItemT1').click(function(e) {
+  e.preventDefault();
+
+  let $this = $(this);
+      $this.toggleClass("ActivatedAccordion");
+      $this.parent().parent().parent().toggleClass("ActiveAccordion")
+});
+
+
 $(document).ready(function(){
   
   $(".MenuButton , .CloseButton1 ,.MenuActive1 ").click(function () {

@@ -1197,6 +1197,9 @@ footer .container {
     background-color: #fff;
     color: #002341;
     border-radius: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .PopupContactBox button {
@@ -1593,6 +1596,152 @@ line-height: 1;
     text-align: center;
     min-height: 72px;
   }
+  .OffSeT1{
+    font-size: 45px;
+  position: relative;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  line-height: 1.1;
+  }
+  .OffSeT1::after {
+    content: "";
+    background-color: #E2AD6B;
+    width: 70%;
+    height: 2px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+  }
+  .OfficeSerBoxHd .row{
+    align-items: center;
+  }
+  .AccordItemImage{
+    border-radius: 20px;
+  }
+  .AccordItem{
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .AccordItemT1{
+    font-size: 28px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    position: relative;
+    cursor: pointer;
+  }
+  .AccordItemT1:after{
+    content: "";
+    background-image: url(../images/acplus.png);
+    background-size: 100% 100%;
+    width: 25px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+ 
+  .AccordItem .col-md-4,
+  .AccordItemT2{
+    display: none;
+  }
+  .AccordItem .col-md-8{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .AccordItemT1{
+    margin-bottom: 0;
+  }
+  .AccordItem.ActiveAccordion .col-md-4 ,
+  .AccordItem.ActiveAccordion .AccordItemT2{
+    display: block;
+  }
+  .AccordItem.ActiveAccordion .col-md-4{
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .AccordItem.ActiveAccordion .col-md-8{
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  .AccordItem.ActiveAccordion .AccordItemT1{
+margin-bottom: 10px;
+  }
+  .AccordItemT1.ActivatedAccordion::after{
+    background-image: url(../images/acminus.png);
+  }
+  .OpT3{
+    margin-top: 10px;
+  }
+  .ContactBox{
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .ContactBoxT1{
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .ContactDetailBox {
+    margin-top: 40px;
+    text-align: left;
+  }
+  .ContactBoxT3 a{
+    color: #E2AD6B;
+  }
+  .ContactBoxT3{
+    margin-bottom: 15px;
+  }
+  .ContactBoxT2{
+    margin-bottom: 3px;
+  }
+  .Type2{
+    margin-bottom: 20px;
+  }
+  .ContactFormK1{
+    color: #E2AD6B;
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+  .ContactForm1 input,
+.ContactForm1 select,
+.ContactForm1 textarea {
+    padding: 12px 15px;
+    display: block;
+    margin-bottom: 8px;
+    border: 1px solid #002341;
+    outline: none !important;
+    box-shadow: none !important;
+    width: 100%;
+    background-color: #fff;
+    color: #002341;
+    border-radius: 25px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.ContactForm1 .col-md-6{
+    margin-bottom: 10px;
+}
+.ContactWrap .container{
+    max-width: 1000px;
+}
+.ContactFormK2{
+    margin-bottom: 30px;
+}
+
+.ContactForm1 button {
+    padding: 10px;
+    cursor: pointer;
+   width: 50%;
+    border-radius: 20px;
+    min-width: 120px;
+    background-color: #E2AD6B;
+    border-color: #E2AD6B;
+    transition: 0.4s;
+    color: #002341 !important;
+}
+
 @media only screen and (max-width: 1000px) {
    section{
     overflow: hidden;
@@ -2063,5 +2212,36 @@ font-size: 18px;
       }
       .ProcessBlockT4 {
         min-height: auto;
+      }
+      .OffSeT1  {
+        font-size: 25px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+      }
+      .OffSeT2{
+        margin-bottom: 20px;
+      }
+      .AccordItemT1 {
+        font-size: 20px;
+        margin-top: 10px;
+        padding-right: 0;
+        margin-bottom: 5px;
+        color: #E2AD6B;
+      }
+      .AccordItem .col-md-4, .AccordItemT2 {
+        display: block !important;
+      }
+      .AccordItemT1::after{
+        content: none;
+      }
+      .AccordItem {
+        padding: 10px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+      }
+      .AccordItem.ActiveAccordion .col-md-8,
+      .AccordItem.ActiveAccordion .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
       }
 }
