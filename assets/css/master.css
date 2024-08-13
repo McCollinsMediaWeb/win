@@ -2244,4 +2244,11 @@ font-size: 18px;
         flex: 0 0 100%;
         max-width: 100%;
       }
+      .ContactBox {
+        padding: 15px;
+        border-radius: 20px;
+      }
+      .ContactDetailBox {
+        margin-top: 10px;
+      }
 }
