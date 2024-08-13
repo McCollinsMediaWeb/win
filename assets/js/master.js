@@ -283,6 +283,24 @@ $('.OtherAccordionItemQuestion').click(function(e) {
       $this.next().slideToggle(350);
   }
 });
+$('.ServiceAccordionItemQuestion').click(function(e) {
+  e.preventDefault();
+
+  let $this = $(this);
+
+  if ($this.next().hasClass('show')) {
+      $this.removeClass("ActivatedAccordion");
+      $this.next().removeClass('show');
+      $this.next().slideUp(350);
+  } else {
+    $(".ServiceAccordionItemQuestion").removeClass("ActivatedAccordion");
+      $this.addClass("ActivatedAccordion");
+      $this.parent().parent().find('.ServiceAccordionItemAnswer').removeClass('show');
+      $this.parent().parent().find('.ServiceAccordionItemAnswer').slideUp(350);
+      $this.next().toggleClass('show');
+      $this.next().slideToggle(350);
+  }
+});
 $(document).ready(function(){
   
   $(".MenuButton , .CloseButton1 ,.MenuActive1 ").click(function () {
