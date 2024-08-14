@@ -1104,9 +1104,12 @@ footer .container {
   text-align: center;
   position: relative;
   cursor: pointer;
-  max-width: 150px;
+  max-width: 170px;
   border: 0px solid #e4e4e4;
 
+  }
+  .ContactForm1 p{
+    margin-bottom: 0 !important;
   }
 .PopupContentBoxT1.active,
 .PopupContentBoxT1:hover {
