@@ -127,6 +127,7 @@
   .ServiceAccordionItemQuestion::after {
     right: auto;
     left: 5px;
+    transform: rotate(180deg);
   }
   @media only screen and (max-width: 1000px) {
 
@@ -141,5 +142,8 @@
       .NumbersINMoving .col-md-3 {
         border-right: 0px solid #737373;
         border-left: 0px solid #737373;
+      }
+      .InServiceBox1Hd {
+        padding-left: 50px;
       }
   }
