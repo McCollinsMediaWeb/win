@@ -1084,7 +1084,13 @@ footer .container {
     border-bottom: 1px solid #707070;
     display: inline-block;
 }
-
+.wpcf7-form-control-wrap {
+    position: relative;
+    margin-bottom: 0 !important;
+  }
+  .wpcf7-form br{
+    display: none !important;
+  }
 .PopupContentBoxT1.active,
 .PopupContentBoxT1:hover {
     color: #E2AD6B;
