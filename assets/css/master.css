@@ -1774,26 +1774,26 @@ margin-bottom: 10px;
 .CareerBox{
     margin-bottom: 30px;
 }
-.BlogItem{
+.BlogItemM{
     padding: 20px;
     border-radius: 20px;
     display: block;
     width: 100%;
     margin-bottom: 15px;
 }
-.BlogDateandPostdetails{
+.BlogDateandPostdetailsM{
     color: #E2AD6B;
     margin-bottom: 10px;
 }
-.BlogTitle1{
+.BlogTitle1M{
     font-size: 25px;
     color: #002341;
     margin-bottom: 10px;
 }
-.BlogDescription{
+.BlogDescriptionM{
     margin-bottom: 10px;
 }
-.ViewAllButton{
+.ViewAllButtonM{
     background: #707070;
     color: #fff;
     width: 160px;
@@ -1805,19 +1805,19 @@ margin-bottom: 10px;
     cursor: pointer;
     padding: 10px;
 }
-.BlogItem:hover{
+.BlogItemM:hover{
     background-color: #002341;
 }
-.BlogItem:hover .BlogTitle1 ,
-.BlogItem:hover .BlogDateandPostdetails,
-.BlogItem:hover .BlogDescription{
+.BlogItemM:hover .BlogTitle1M ,
+.BlogItemM:hover .BlogDateandPostdetailsM,
+.BlogItemM:hover .BlogDescriptionM{
     color: #fff;
 }
-.BlogItem:hover .ViewAllButton{
+.BlogItemM:hover .ViewAllButtonM{
 background-color: #E2AD6B;
 color: #002341;
 }
-.BlogItem .row{
+.BlogItemM .row{
 align-items: center;
 }
 .AllBlogsItem{
@@ -1827,10 +1827,10 @@ align-items: center;
     .AllBlogsItem{
         margin-top: 15px;
     }
-    .BlogDateandPostdetails {
+    .BlogDateandPostdetailsM {
         margin-top: 10px;
       }
-      .BlogTitle1 {
+      .BlogTitle1M {
         font-size: 19px;
       }
     .CareerBox {
