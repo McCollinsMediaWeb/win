@@ -1100,12 +1100,13 @@ footer .container {
   background: #E2AD6B;
   color: #072341;
   border-radius: 50px;
-  display: inline-block;
+  display: block;
   text-align: center;
   position: relative;
   cursor: pointer;
   max-width: 150px;
   border: 0px solid #e4e4e4;
+
   }
 .PopupContentBoxT1.active,
 .PopupContentBoxT1:hover {
