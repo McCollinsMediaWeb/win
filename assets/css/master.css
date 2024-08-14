@@ -792,7 +792,9 @@ img {
 .BlogItemLink:hover .BlogTitle {
     color: #fff;
 }
-
+.BlogItemLinkar:hover .BlogTitle {
+    color: #fff;
+}
 .BlogItemLink:hover .Arrow {
     background-color: #E2AD6B;
 }
