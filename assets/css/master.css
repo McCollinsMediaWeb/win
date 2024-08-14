@@ -1078,9 +1078,9 @@ footer .container {
 }
 
 .PopupContentBoxT1 {
-    font-size: 30px;
+    font-size: 25px;
     color: #072341;
-    padding: 15px 0px;
+    padding: 10px 0px;
     border-bottom: 1px solid #707070;
     display: inline-block;
 }
@@ -1822,6 +1822,9 @@ align-items: center;
 }
 .AllBlogsItem{
     margin-top: 30px;
+}
+.PopupContentBoxT11{
+    font-size: 15px;
 }
 @media only screen and (max-width: 1000px) {
     .AllBlogsItem{
