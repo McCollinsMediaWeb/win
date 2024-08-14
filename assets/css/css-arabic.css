@@ -133,6 +133,14 @@
     left: auto;
     right: 0;
   }
+  .AccordItemT1 {
+    padding-right: 0;
+    padding-left: 35px;
+  }
+  .AccordItemT1::after {    
+    right: auto;
+    left: 0;
+  }
   @media only screen and (max-width: 1000px) {
 
     .LanguageSwitcherLink {
