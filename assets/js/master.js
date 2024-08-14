@@ -309,7 +309,11 @@ $('.AccordItemT1').click(function(e) {
       $this.parent().parent().parent().toggleClass("ActiveAccordion")
 });
 
-
+$(".ContactBoxT6").click(function() {
+  $('html,body').animate({
+      scrollTop: $(".ContactWrap").offset().top},
+      'slow');
+});
 $(document).ready(function(){
   
   $(".MenuButton , .CloseButton1 ,.MenuActive1 ").click(function () {

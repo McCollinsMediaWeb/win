@@ -1741,8 +1741,41 @@ margin-bottom: 10px;
     transition: 0.4s;
     color: #002341 !important;
 }
-
+.ContactBoxT4{
+    color: #E2AD6B;
+    margin-bottom: 10px;
+}
+.ContactBoxT6{
+        padding: 10px 15px;
+        background: #E2AD6B;
+        color: #072341;
+        width: 160px;
+        border-radius: 50px;
+        display: inline-block;
+        margin-top: 15px;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+}
+.ContactBoxT6::after {
+    content: "";
+    background-image: url(../images/arrow2.png);
+    width: 10px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+    top: 2px;
+}
+.CareerBox{
+    margin-bottom: 30px;
+}
 @media only screen and (max-width: 1000px) {
+    .CareerBox {
+        margin-bottom: 15px;
+      }
    section{
     overflow: hidden;
    }
