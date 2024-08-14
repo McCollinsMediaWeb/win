@@ -1772,7 +1772,65 @@ margin-bottom: 10px;
 .CareerBox{
     margin-bottom: 30px;
 }
+.BlogItem{
+    padding: 20px;
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.BlogDateandPostdetails{
+    color: #E2AD6B;
+    margin-bottom: 10px;
+}
+.BlogTitle1{
+    font-size: 25px;
+    color: #002341;
+    margin-bottom: 10px;
+}
+.BlogDescription{
+    margin-bottom: 10px;
+}
+.ViewAllButton{
+    background: #707070;
+    color: #fff;
+    width: 160px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+}
+.BlogItem:hover{
+    background-color: #002341;
+}
+.BlogItem:hover .BlogTitle1 ,
+.BlogItem:hover .BlogDateandPostdetails,
+.BlogItem:hover .BlogDescription{
+    color: #fff;
+}
+.BlogItem:hover .ViewAllButton{
+background-color: #E2AD6B;
+color: #002341;
+}
+.BlogItem .row{
+align-items: center;
+}
+.AllBlogsItem{
+    margin-top: 30px;
+}
 @media only screen and (max-width: 1000px) {
+    .AllBlogsItem{
+        margin-top: 15px;
+    }
+    .BlogDateandPostdetails {
+        margin-top: 10px;
+      }
+      .BlogTitle1 {
+        font-size: 19px;
+      }
     .CareerBox {
         margin-bottom: 15px;
       }
