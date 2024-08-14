@@ -1091,6 +1091,10 @@ footer .container {
   .wpcf7-form br{
     display: none !important;
   }
+  .wpcf7-form{
+    margin: 0;
+    padding: 0;
+  }
   .wpcf7-form-control.wpcf7-submit{
     padding: 10px 15px;
   background: #E2AD6B;
@@ -1100,6 +1104,8 @@ footer .container {
   text-align: center;
   position: relative;
   cursor: pointer;
+  max-width: 150px;
+  border: 0px solid #e4e4e4;
   }
 .PopupContentBoxT1.active,
 .PopupContentBoxT1:hover {
