@@ -1880,6 +1880,9 @@ align-items: center;
     margin-right: 15px;
     display: inline-block;
 }
+.HgAdhst .ProcessBlockT3{
+    min-height: 150px;
+}
 @media only screen and (max-width: 1000px) {
     .BlogImageM {
         height: 220px;
