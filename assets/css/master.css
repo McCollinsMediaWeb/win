@@ -1852,7 +1852,14 @@ align-items: center;
 .PopupContentBoxT11{
     font-size: 15px;
 }
+.BlogImageM {
+    height: 250px;
+  object-fit: cover;
+}
 @media only screen and (max-width: 1000px) {
+    .BlogImageM {
+        height: 220px;
+    }
     .AllBlogsItem{
         margin-top: 15px;
     }
