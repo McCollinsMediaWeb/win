@@ -1868,6 +1868,10 @@ align-items: center;
 }
 .AnswerBox .LinkTp3{
     margin-top: 20px;
+    border: 1px solid #E2AD6B;
+}
+.AnswerBox .LinkTp3:hover{
+    border: 1px solid #E2AD6B;
 }
 @media only screen and (max-width: 1000px) {
     .BlogImageM {
