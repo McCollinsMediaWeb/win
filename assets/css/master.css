@@ -1863,6 +1863,9 @@ align-items: center;
     -webkit-box-orient: vertical;  
     overflow: hidden;
 }
+.BlogDetPage .EndFlexBox{
+    text-align: center !important;
+}
 @media only screen and (max-width: 1000px) {
     .BlogImageM {
         height: 220px;
