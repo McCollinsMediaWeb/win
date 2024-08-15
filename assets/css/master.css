@@ -1866,6 +1866,9 @@ align-items: center;
 .BlogDetPage .EndFlexBox{
     text-align: center !important;
 }
+.AnswerBox .LinkTp3{
+    margin-top: 20px;
+}
 @media only screen and (max-width: 1000px) {
     .BlogImageM {
         height: 220px;
