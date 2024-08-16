@@ -1888,8 +1888,7 @@ align-items: center;
     background: rgba(0,0,0,0.3);
 }
 
- .mainbannerImg1 ,
- .PageHeaderImg {
+ .mainbannerImg1{
     animation: leaves 20s ease-in-out infinite alternate;
     transition: 0.5s;
     max-height: 100vh;
