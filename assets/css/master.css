@@ -1887,10 +1887,26 @@ align-items: center;
 .PageHeaderContent.BlogDetPage{
     background: rgba(0,0,0,0.3);
 }
-.PageHeaderImg{
+
+ .mainbannerImg1 ,
+ .PageHeaderImg {
+    animation: leaves 20s ease-in-out infinite alternate;
+    transition: 0.5s;
     max-height: 100vh;
     object-fit: cover;
-} 
+}
+.pageHeader,
+.HeroNav  {
+    overflow: hidden;
+}
+  @keyframes leaves {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+  }
 @media only screen and (max-width: 1000px) {
     .BlogImageM {
         height: 220px;
