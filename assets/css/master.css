@@ -1927,6 +1927,10 @@ align-items: center;
     right: 22px;
     top: 15px;
   }
+  .BlogSideBarSec1x .LinkTp3 {
+    padding: 8px 10px;
+    width: 150px;
+  }
 @media only screen and (max-width: 1000px) {
     .BlogImageM {
         height: 220px;
