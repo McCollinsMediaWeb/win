@@ -1886,6 +1886,9 @@ align-items: center;
 .PageHeaderContent.BlogDetPage{
     background: rgba(0,0,0,0.3);
 }
+.PageHeaderImg{
+    max-height: 100vh;
+} 
 @media only screen and (max-width: 1000px) {
     .BlogImageM {
         height: 220px;
