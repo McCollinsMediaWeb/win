@@ -172,6 +172,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: 2;
 }
 
 .HeroNavContent>.container,
@@ -906,6 +907,16 @@ img {
     border-color: #E2AD6B;
     transition: 0.4s;
     color: #002341 !important;
+}
+.HeroNav::after{
+    content: "";
+    background-color: rgba(0, 0, 0, .3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
 }
 
 .Form1 button:hover {
