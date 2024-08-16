@@ -598,7 +598,6 @@ img {
 }
 
 .PartnerItem img {
-    max-height: 80px;
     width: auto;
     max-width: 100%;
 }
