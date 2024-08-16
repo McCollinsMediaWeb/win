@@ -1883,6 +1883,9 @@ align-items: center;
 .HgAdhst .ProcessBlockT3{
     min-height: 150px;
 }
+.PageHeaderContent.BlogDetPage{
+    background: rgba(0,0,0,0.3);
+}
 @media only screen and (max-width: 1000px) {
     .BlogImageM {
         height: 220px;
