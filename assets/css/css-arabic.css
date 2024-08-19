@@ -151,6 +151,9 @@
   .ContactBox {
     text-align: right;
   }
+  .AnswerBoxHd::after {
+    transform: rotate(180deg);
+  }
   @media only screen and (max-width: 1000px) {
 
     .LanguageSwitcherLink {
