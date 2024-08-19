@@ -335,6 +335,16 @@ $(document).ready(function(){
         jQuery('.PopupContentBox2').css('height', (windowHeight - totalGap )+'px');
         
   });
+$(".selectLanguage , .LanguageClose").click(function () {
+    jQuery("body").toggleClass("LanguagePopup");
+    
+    windowHeight = jQuery(window).innerHeight();
+    PopupHeaderHeight2= jQuery(".PopUpHeaderBoxWrap3").innerHeight();
+    PopuuFooterHeight2= jQuery(".PopUpFooterBoxWrap3").innerHeight();
+    totalGap = PopupHeaderHeight2 + PopuuFooterHeight2;
+    jQuery('.PopupContentBox3').css('height', (windowHeight - totalGap )+'px');
+    
+});
 });
 $(".team").slick({
   dots: true,

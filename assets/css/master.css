@@ -1032,7 +1032,8 @@ footer .container {
 }
 
 .MenuPOpup1,
-.MenuPOpup2 {
+.MenuPOpup2,
+.MenuPOpup3 {
     display: none;
 }
 
@@ -1041,6 +1042,9 @@ footer .container {
 }
 
 .contactPopupActivated .MenuPOpup2 {
+    display: block;
+}
+.LanguagePopup .MenuPOpup3{
     display: block;
 }
 
@@ -1952,6 +1956,44 @@ align-items: center;
   .BlogSideBarSec1x .LinkTp3 {
     padding: 8px 10px;
     width: 150px;
+  }
+  .LangSw{
+    display: block;
+  }
+  .LangSw a{
+    display: block;
+    height: auto;
+  }
+  .LaSwBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1;
+    transition: 0.4s;
+    border: 2px solid #e4e4e4;
+  }
+  .LaSwBoxLeft{
+    flex: 0 0 50px;
+    max-width: 50px;
+  }
+  .LaSwBoxLeft svg{
+    max-width: 30px;
+    max-height: 30px;
+   
+  }
+  .LaSwBoxRight {
+    flex: 0 0 auto;
+    max-width: auto;
+    color: #002341;
+    
+  }
+  .LaSwBox:hover{
+    background-color: #E2AD6B;
+    border: 2px solid #002341;
   }
 @media only screen and (max-width: 1000px) {
     .BlogImageM {
