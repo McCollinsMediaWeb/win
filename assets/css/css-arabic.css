@@ -154,6 +154,9 @@
   .AnswerBoxHd::after {
     transform: rotate(180deg);
   }
+  .Form1 input{
+    padding: 6px 10px;
+  }
   @media only screen and (max-width: 1000px) {
 
     .LanguageSwitcherLink {
