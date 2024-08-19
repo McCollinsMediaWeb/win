@@ -724,14 +724,15 @@ img {
 
 .TestimonialBlk {
     margin-top: 45px;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
+
 }
 
 .TestDesc {
     margin-bottom: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
 }
 
 .TestOwner {
