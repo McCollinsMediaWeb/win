@@ -160,6 +160,9 @@
   .PopupContactBox input, .PopupContactBox select, .PopupContactBox textarea{
     text-align: right !important;
   }
+  .ContactForm1 input, .ContactForm1 select, .ContactForm1 textarea{
+    text-align: right !important;
+  }
   @media only screen and (max-width: 1000px) {
 
     .LanguageSwitcherLink {
