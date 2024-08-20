@@ -157,6 +157,9 @@
   .Form1 input{
     padding: 6px 10px;
   }
+  .PopupContactBox input, .PopupContactBox select, .PopupContactBox textarea{
+    text-align: right !important;
+  }
   @media only screen and (max-width: 1000px) {
 
     .LanguageSwitcherLink {
