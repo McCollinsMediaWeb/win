@@ -20,8 +20,9 @@ img {
   align-items: center;
 }
 .HeaderBoxLeft {
-  flex: 0 0 150px;
-  max-width: 150px;
+  flex: 0 0 140px;
+  max-width: 140px;
+  transition: 0.4s;
 }
 .HeaderBoxMiddle {
   flex: 0 0 auto;
@@ -46,22 +47,24 @@ img {
   position: relative;
 }
 .HeadrNavItem {
-  font-size: 18px;
+  font-size: 16px;
   margin: 0 18px;
   color: #fff !important;
   position: relative;
+  font-weight: 600;
+  transition: 0.4s;
 }
 
 .HeadrNavItem.active::after, .HeadrNavItem:hover::after {
   content: "";
   background-color: #fff;
-  height: 3px;
+  height: 2px;
   width: 100%;
   position: absolute;
-  bottom: -15px;
+  bottom: -10px;
   left: 0;
   transition: 0.5s;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .MenuIcon {
   background-image: url(../images/menu.png);
@@ -70,23 +73,309 @@ img {
   background-size: 100% 100%;
 }
 .MenuButton {
-  margin-left: 25px;
   cursor: pointer;
   padding: 10px;
   transition: 0.4s;
   border-radius: 50%;
+  border: 2px solid transparent;
+}
+.MenuButton:hover{
   border: 2px solid #fff;
 }
 .HeroBannner{
   min-height: 50vh;
   background-image: url(../images/bg1.jpg);
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 header {
   position: fixed;
   width: 100%;
   background: transparent;
+  left: 0;
+  top: 0;
+  z-index: 9;
 }
 .screenHeight{
   height: 100vh;
+}
+.HrBannerContent{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.screeWidth{
+  width: 100%;
+}
+.HrBannerContent{
+  text-align: center;
+}
+.T1{
+  font-size: 48px;
+}
+.T1.bolder{
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.T2{
+  font-size: 19px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+.T3{
+  background-color: #C10600;
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 25px;
+  transition: 0.4s;
+}
+.T3:hover{
+  background-color: #0A2F8B;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.AboutContent{
+  background-color: #115F30;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.AboutContent{
+  color: #fff;
+  text-align: center;
+}
+.pd-common{
+  padding: 60px 0px;
+}
+.StickHeader header{
+  background-color: #115F30;
+  box-shadow: 0 5px 25px rgba(0,0,0,.17);
+}
+.StickHeader .HeaderBoxLeft {
+  flex: 0 0 100px;
+  max-width: 100px;
+}
+.WinBanner{
+  max-width: 100%;
+  border-radius: 35px;
+  margin: 25px 0px;
+}
+.AboutContent .container{
+  max-width: 1100px;
+}
+.AboutContent .T2{
+max-width: 900px;
+margin: 0 auto;
+margin-bottom: 25px;
+
+}
+.Wincollections{
+  background-color: #0A2F8B;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.FullWidthHeight {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+.PopUpHeaderBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  align-items: center;
+}
+.PopUpHeaderBoxLeft {
+  flex: 0 0 150px;
+  max-width: 150px;
+}
+.PopUpHeaderBoxMiddle {
+  font-size: 25px;
+}
+.CloseButton {
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/close.png);
+  background-size: 100% 100%;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+.PopupContentBox {
+  padding: 20px;
+}
+.PopUpFooterBox {
+  padding: 15px 0px;
+}
+.PopUpFooterBox .col-md-9 {
+  font-size: 20px;
+}
+.FtrLinkP {
+  background-color: #C10600;
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 25px;
+  transition: 0.4s;
+  color: #fff !important;
+}
+.FtrLinkP:hover{
+  background-color: #072341;
+}
+.MenuPOpup1, .MenuPOpup2, .MenuPOpup3 {
+  display: none;
+  color: #fff;
+}
+.menuPopupActivated .MenuPOpup1 {
+  display: block;
+}
+.contactPopupActivated .MenuPOpup2 {
+  display: block;
+}
+.MenuPOpup{
+  background-color: #115F30;
+}
+.PopupContentBox{
+  background-color: #072341;
+}
+
+.ContactItemLink {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-weight: 300;
+  font-size: 17px;
+  color: #fff !important;
+  padding: 15px 10px;
+  position: relative;
+}
+.LLinkFleR2{
+  color: #C10600;
+}
+.widthfull {
+  width: 100%;
+}
+.LLinkFle .LLinkFleL {
+  flex: 0 0 55px;
+}
+.LLinkFle .LLinkFleR {
+  flex: 1 1;
+}
+.SocialIcn {
+  width: 35px;
+  height: 35px;
+  background-size: 100% 100%;
+}
+.LLinkFle {
+  display: flex;
+  align-items: center;
+}
+.heightfull {
+  height: 100%;
+}
+.SocialIcn.whatsapp {
+  background-image: url(../images/whatsapp.png);
+}
+.SocialIcn.email {
+  background-image: url(../images/email.png);
+}
+.SocialIcn.call {
+  background-image: url(../images/call.png);
+}
+.SocialIcn.instagram {
+  background-image: url(../images/instagram1.png);
+}
+.SocialIcn.tiktok {
+  background-image: url(../images/tiktok1.png);
+}
+.ContactItemLink::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #888;
+  opacity: .1;
+}
+.PopupContentBoxT1 {
+  font-size: 25px;
+  color: #fff;
+  padding: 10px 0px;
+  border-bottom: 1px solid #707070;
+  display: inline-block;
+  transition: 0.4s;
+}
+.PopupContentBoxT1:hover{
+  color: #C10600;
+}
+
+.Ct1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.Ct2 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.PopupContactBox input, .PopupContactBox select, .PopupContactBox textarea {
+  padding: 8px 15px;
+  display: block;
+  margin-bottom: 8px;
+  border: 1px solid #fff;
+  outline: none !important;
+  box-shadow: none !important;
+  width: 100%;
+  background-color: #072341;
+  color: #fff;
+  border-radius: 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 15px;
+}
+.PopupContactBox button {
+  background-color: #C10600;
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 25px;
+  transition: 0.4s;
+  color: #fff !important;
+  border: 0px solid #e4e4e4;
+  min-width: 150px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1;
+  /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Edge 12-18 */
+  color: #fff;
+}
+
+.HdSt1{
+  font-size: 45px;
+  text-align: center;
+  color: #fff;
+}
+.HdSt1 span{
+  font-weight: 600;
+  
 }

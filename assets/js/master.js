@@ -2,7 +2,7 @@ $(document).ready(
     function(){
         windowHeight = jQuery(window).innerHeight();
         HeaderHeight = jQuery("header").innerHeight();
-        // jQuery('.mainbannerImg1').css('height', (windowHeight-HeaderHeight)+'px');
+        jQuery('.HeroImage').css('max-height', (windowHeight-HeaderHeight*2)+'px');
         jQuery('.screenHeight').css('height', (windowHeight)+'px');
         
         jQuery(window).scroll(function () {
@@ -246,3 +246,35 @@ moveLine3DItems.forEach((item) => {
   timeline.from(splitedText.lines, tweenOptions);
 });
 
+$(document).ready(function(){
+  
+  $(".MenuButton , .CloseButton1 ,.MenuActive1 ").click(function () {
+      jQuery("body").toggleClass("menuPopupActivated");
+        windowHeight = jQuery(window).innerHeight();
+        PopupHeaderHeight1= jQuery(".PopUpHeaderBoxWrap1").innerHeight();
+        PopuuFooterHeight1= jQuery(".PopUpFooterBoxWrap1").innerHeight();
+        totalGap = PopupHeaderHeight1 + PopuuFooterHeight1;
+        jQuery('.PopupContentBox1').css('height', (windowHeight - totalGap )+'px');
+       
+  });
+  $(".contactPopupButton , .contactPopupClose , .Contactusnow").click(function () {
+        jQuery("body").toggleClass("contactPopupActivated");
+        
+        windowHeight = jQuery(window).innerHeight();
+        PopupHeaderHeight2= jQuery(".PopUpHeaderBoxWrap2").innerHeight();
+        PopuuFooterHeight2= jQuery(".PopUpFooterBoxWrap2").innerHeight();
+        totalGap = PopupHeaderHeight2 + PopuuFooterHeight2;
+        jQuery('.PopupContentBox2').css('height', (windowHeight - totalGap )+'px');
+        
+  });
+$(".selectLanguage , .LanguageClose").click(function () {
+    jQuery("body").toggleClass("LanguagePopup");
+    
+    windowHeight = jQuery(window).innerHeight();
+    PopupHeaderHeight2= jQuery(".PopUpHeaderBoxWrap3").innerHeight();
+    PopuuFooterHeight2= jQuery(".PopUpFooterBoxWrap3").innerHeight();
+    totalGap = PopupHeaderHeight2 + PopuuFooterHeight2;
+    jQuery('.PopupContentBox3').css('height', (windowHeight - totalGap )+'px');
+    
+});
+});
