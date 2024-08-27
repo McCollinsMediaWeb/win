@@ -34,32 +34,32 @@
   </head>
 
   <body>
-    <header>
+    <header class="HeaderBoxMain">
       <div class="container">
         <div class="HeaderBoxWrap">
           <div class="HeaderBox">
             <div class="HeaderBoxLeft">
-              <a href="https://alshowab.mcmedia.space">
+              <a href="#home" class=" LinkConnected">
                 <img src="assets/images/logo.png" />
               </a>
             </div>
-            <div class="HeaderBoxMiddle">
+            <div class="HeaderBoxMiddle m-none">
               <div class="HeaderNavItems">
                 <ul class="NavBar1 p-0 m-0">
                   <li>
-                    <a class="HeadrNavItem active" href="#">Win Family</a>
+                    <a class="HeadrNavItem LinkConnected active" href="#about">Win Family</a>
                   </li>
                   <li>
-                    <a class="HeadrNavItem" href="#">Products</a>
+                    <a class="HeadrNavItem LinkConnected" href="#wincollections">Our Collections</a>
                   </li>
                   <li>
-                    <a class="HeadrNavItem" href="#">About Win</a>
+                    <a class="HeadrNavItem LinkConnected" href="#winproducts">Products</a>
                   </li>
                   <li>
-                    <a class="HeadrNavItem" href="#">Where to Buy</a>
+                    <a class="HeadrNavItem LinkConnected" href="#home">Where to Buy</a>
                   </li>
                   <li>
-                    <a class="HeadrNavItem" href="#">Ask Expert</a>
+                    <a class="HeadrNavItem contactPopupButton" href="javascript:void(0);">Ask Expert</a>
                   </li>
                 </ul>
               </div>
@@ -74,7 +74,7 @@
       </div>
     </header>
     <main>
-      <section class="HeroBannner screenHeight position-relative">
+      <section class="HeroBannner screenHeight position-relative" id="home">
         <div class="HrBannerContent">
           <div class="screeWidth">
             <div class="container">
@@ -109,7 +109,7 @@
           </div>
         </div>
       </section>
-      <section class="AboutContent pd-common">
+      <section class="AboutContent pd-common" id="about">
         <div class="container">
           <div class="T1 move-line-3d">Lorem Ipsum is</div>
           <div class="T1 bolder move-line-3d">simply dummy</div>
@@ -131,7 +131,7 @@
           </div>
         </div>
       </section>
-      <section class="pd-common Wincollections">
+      <section class="pd-common Wincollections" id="wincollections">
         <div class="container">
           <div class="HdSt1 move-line-3d">
             Lorem Lipsum <span>Lorem Lip Sum</span>
@@ -244,7 +244,7 @@
           </div>
         </div>
       </section>
-      <section class="FeaturedProductBox pd-common">
+      <section class="FeaturedProductBox pd-common" id="winproducts">
         <div class="container">
           <div class="FtHeader text-center move-line-3d">
             <div class="FtHdT1">Featured <span>products</span></div>
@@ -447,26 +447,26 @@
                   <div class="col-md-4">
                     <div class="FooterLinks">
                       <div>
-                        <a href="#">Win Family</a>
+                        <a href="#about" class="LinkConnected">Win Family</a>
                       </div>
                       <div>
-                        <a href="#">Win Products</a>
+                        <a href="#wincollections" class="LinkConnected">Our Collections</a>
                       </div>
                       <div>
-                        <a href="#">About Win</a>
+                        <a href="#winproducts" class="LinkConnected">Our Products</a>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-4">
                     <div class="FooterLinks">
                       <div>
-                        <a href="#">Where to buy</a>
+                        <a href="#about" class="LinkConnected">About Win</a>
                       </div>
                       <div>
-                        <a href="#">Ask Expert</a>
+                        <a href="javascript:void(0);" class="contactPopupButton">Ask Expert</a>
                       </div>
                       <div>
-                        <a href="#">Become a distributor</a>
+                        <a href="javascript:void(0);" class="contactPopupButton">Become a distributor</a>
                       </div>
                     </div>
                   </div>
@@ -623,14 +623,14 @@
               <div class="col-md-1 d-only">&nbsp;</div>
               <div class="col-md-4">
                 <div>
-                  <a href="/" class="PopupContentBoxT1 active">Win Family</a>
+                  <a href="#about" class="PopupContentBoxT1 active LinkConnected">Win Family</a>
                 </div>
-                <div><a href="/" class="PopupContentBoxT1">Products</a></div>
-                <div><a href="/" class="PopupContentBoxT1">About Win</a></div>
+                <div><a href="#wincollections" class="PopupContentBoxT1 LinkConnected">Collections</a></div>
+                <div><a href="#winproducts" class="PopupContentBoxT1 LinkConnected">Products</a></div>
                 <div>
-                  <a href="/" class="PopupContentBoxT1">Where to Buy</a>
+                  <a href="#home" class="PopupContentBoxT1 LinkConnected">Where to Buy</a>
                 </div>
-                <div><a href="/" class="PopupContentBoxT1">Ask Expert</a></div>
+                <div><a href="javascript:void(0);" class="PopupContentBoxT1 contactPopupButton">Ask Expert</a></div>
               </div>
             </div>
           </div>

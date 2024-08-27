@@ -352,3 +352,33 @@ $(".products").slick({
     },
   ],
 });
+
+document.querySelectorAll('.LinkConnected').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+
+    // Adjust this value to the height of your fixed header
+    const headerHeight = document.querySelector('.HeaderBoxMain').offsetHeight;
+
+    // Find the target element
+    const targetId = this.getAttribute('href').substring(1);
+    const targetElement = document.getElementById(targetId);
+
+    // Remove 'active' class from all links
+    document.querySelectorAll('.LinkConnected').forEach(item => item.classList.remove('active'));
+
+    document.body.classList.remove("menuPopupActivated");
+    document.body.classList.remove("contactPopupActivated");
+
+    // Add 'active' class to the clicked link
+    this.classList.add('active');
+
+    if (targetElement) {
+      // Scroll to the element with adjusted offset
+      window.scrollTo({
+        top: targetElement.offsetTop - headerHeight,
+        behavior: 'smooth'
+      });
+    }
+  });
+});

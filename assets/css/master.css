@@ -613,7 +613,7 @@ overflow: hidden;
 
 .footerbottom {
   background-color: #C10600;
-  padding: 10px 0px;
+  padding: 15px 0px;
   color: #fff;
 }
 .footerbottom a {
@@ -692,8 +692,8 @@ overflow: hidden;
 
 .SocialMediaLinks a {
   display: inline-block;
-  margin: 0 7px;
-    margin-left: 7px;
+  margin: 0 2px;
+    margin-left: 2px;
 }
 .SocialMediaLinks a:first-child {
   margin-left: 0;
@@ -718,4 +718,53 @@ overflow: hidden;
 }
 .SocialMediaIcon.twitter {
   background-image: url(../images/email.png);
+}
+
+@media only screen and (max-width: 900px) {
+ .m-none , .d-only{
+  display: none !important;
+ }
+ .HeaderBoxLeft {
+  flex: 0 0 90px;
+  max-width: 90px;
+}
+.StickHeader .HeaderBoxLeft {
+  flex: 0 0 90px;
+  max-width: 90px;
+}
+.HrBannerContent{
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.T1 {
+  font-size: 30px;
+}
+.T2 {
+  font-size: 16px;
+}
+.PopUpHeaderBoxLeft {
+  flex: 0 0 70px;
+  max-width: 70px;
+}
+.PopUpHeaderBoxMiddle {
+  font-size: 18px;
+}
+.CloseButton {
+  width: 20px;
+  height: 20px;
+}
+.PopUp .container-fluid{
+  padding: 0;
+}
+.PopUpFooterBox .col-md-9 {
+  font-size: 18px;
+}
+.col-md-3.text-right{
+  text-align: center !important;
+}
+.FtrLinkP {
+  padding: 8px 18px;
+  margin-top: 10px;
+}
 }
