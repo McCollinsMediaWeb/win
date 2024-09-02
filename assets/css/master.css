@@ -926,4 +926,10 @@ br{
   background-image: url(../images/mb2.jpg);
   min-height: 100vh;
 }
+.HrBannerContent .HeroImage {
+  max-width: 75%;
+}
+.BannerBox {
+  margin-bottom: 15px;
+}
 }
