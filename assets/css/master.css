@@ -876,8 +876,8 @@ overflow: hidden;
 }
 .FullBgImage .col-md-4{
   position: relative;
-  color: #fff;
   z-index: 9;
+  text-align: center;
 }
 .FullBgImageT1 {
   font-size: 21px;
@@ -924,5 +924,6 @@ br{
 }
 .FullBgImage{
   background-image: url(../images/mb2.jpg);
+  min-height: 100vh;
 }
 }
