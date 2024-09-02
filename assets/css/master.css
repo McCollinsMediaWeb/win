@@ -924,7 +924,7 @@ br{
 }
 .FullBgImage{
   background-image: url(../images/mb2.jpg);
-  min-height: 100vh;
+  min-height: 80vh;
 }
 .HrBannerContent .HeroImage {
   max-width: 75%;
