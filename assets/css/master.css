@@ -156,7 +156,13 @@ header {
   cursor: pointer;
 }
 .AboutContent{
-  background-color: #115F30;
+  min-height: 50vh;
+  background-image: url(../images/bg1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .AboutContent{
   color: #fff;
