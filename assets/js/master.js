@@ -4,7 +4,7 @@ $(document).ready(
     function(){
         windowHeight = jQuery(window).innerHeight();
         HeaderHeight = jQuery("header").innerHeight();
-        jQuery('.HeroImage').css('max-height', (windowHeight-HeaderHeight*2)+'px');
+        jQuery('.HeroImage').css('max-height', (windowHeight-HeaderHeight)+'px');
         jQuery('.screenHeight').css('height', (windowHeight)+'px');
         
         jQuery(window).scroll(function () {

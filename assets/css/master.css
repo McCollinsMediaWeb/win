@@ -763,10 +763,7 @@ overflow: hidden;
     margin-bottom: 0px;
     margin-bottom: 15px;
 }
-.HrBannerContent .HeroImage {
-  max-width: 65%;
-  margin-bottom: 15px;
-}
+
 .PopUpHeaderBoxLeft {
   flex: 0 0 70px;
   max-width: 70px;
