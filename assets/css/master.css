@@ -919,4 +919,10 @@ br{
 .footerbottom *{
   text-align: center !important;
 }
+.BannerDesc {
+  font-size: 20px;
+}
+.FullBgImage{
+  background-image: url(../images/mb2.jpg);
+}
 }
