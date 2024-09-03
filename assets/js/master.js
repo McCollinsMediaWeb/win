@@ -316,42 +316,8 @@ $(window).scroll(function() {
 
 });
 
-$(".products").slick({
-  dots: true,
-  infinite: true,
-  speed: 1500,
-  slidesToShow: 5,
-  slidesToScroll: 1,
-  loop: true,
-  arrows: true,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true,
-      },
-    },
-    {
-      breakpoint: 767,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 2,
-        centerMode: true,
-      },
-    },
-    {
-      breakpoint: 570,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerMode: true,
-      },
-    },
-  ],
-});
+
+
 
 document.querySelectorAll('.LinkConnected').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
@@ -381,4 +347,54 @@ document.querySelectorAll('.LinkConnected').forEach(anchor => {
       });
     }
   });
+});
+
+
+$(document).ready(function () {
+  function isMobile() {
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  }
+
+  if (isMobile()) {
+      console.log("This is a mobile device.");
+      // You can perform mobile-specific actions here
+  } else {
+      console.log("This is a desktop device.");
+      $(".products").slick({
+        dots: true,
+        infinite: true,
+        speed: 1500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        loop: true,
+        arrows: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true,
+            },
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 2,
+              centerMode: true,
+            },
+          },
+          {
+            breakpoint: 570,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              centerMode: true,
+            },
+          },
+        ],
+      });
+  }
 });
