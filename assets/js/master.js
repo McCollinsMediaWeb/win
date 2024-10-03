@@ -366,7 +366,7 @@ $(document).ready(function () {
         speed: 1500,
         slidesToShow: 4,
         slidesToScroll: 1,
-        loop: true,
+        loop: false,
         arrows: true,
         responsive: [
           {
